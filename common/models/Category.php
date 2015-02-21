@@ -3,6 +3,7 @@
 namespace common\models;
 
 use Yii;
+use yii\db\Query;
 use common\models\CategoryQuery;
 use common\components\behaviors\ClosureTable;
 
@@ -19,7 +20,7 @@ class Category extends \yii\db\ActiveRecord
     
     public $leaf;
 
-    public $isRoot = false;
+    public $isRoot;
 
     public function behaviors() {
         return [
@@ -73,5 +74,12 @@ class Category extends \yii\db\ActiveRecord
     public function getCategoryTrees()
     {
         return $this->hasMany(CategoryTree::className(), ['parent' => 'id']);
+    }
+
+    public function getRoot()
+    {
+        $query = (new Query())->select('parent')->from('category_tree');
+        $query->where(['and','parent=:parent_id','child=:parent_id','depth=:zero'],[':parent_id'=>$this->id,':zero'=>'0']);
+        return $query->exists();
     }
 }
