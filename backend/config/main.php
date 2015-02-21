@@ -29,6 +29,12 @@ return [
         'errorHandler' => [
             'errorAction' => 'site/error',
         ],
+        'view' => [
+            'theme' => [
+                'pathMap' => ['@backend/views' => '@backend/themes/smartadmin'],
+                'baseUrl' => '@web/themes/smartadmin',
+            ],
+        ],
     ],
     'params' => $params,
 ];
