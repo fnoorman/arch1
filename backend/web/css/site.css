@@ -89,3 +89,19 @@ a.desc:after {
     padding: 10px 20px;
     margin: 0 0 15px 0;
 }
+
+.table.motion-comic > tbody > tr > td {
+    width: 80%
+}
+
+.one-edge-shadow {
+    -webkit-box-shadow: 0 8px 6px -6px black;
+       -moz-box-shadow: 0 8px 6px -6px black;
+            box-shadow: 0 8px 6px -6px black;
+}
+
+.shadow {
+  -moz-box-shadow:    3px 6px 2px 1px gray;
+  -webkit-box-shadow: 3px 6px 2px 1px gray;
+  box-shadow:         3px 6px 2px 1px gray;
+}

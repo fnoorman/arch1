@@ -18,14 +18,20 @@
         "yiisoft/yii2": "*",
         "yiisoft/yii2-bootstrap": "*",
         "yiisoft/yii2-swiftmailer": "*",
-        "yiisoft/yii2-imagine": "*"
+        "yiisoft/yii2-imagine": "*",
+        "2amigos/yii2-file-input-widget": "*",
+        "kartik-v/bootstrap-fileinput": "dev-master",
+        "costa-rico/yii2-images": "dev-master",
+        "yiisoft/yii2-jui": "*"
         
     },
     "require-dev": {
         "yiisoft/yii2-codeception": "*",
         "yiisoft/yii2-debug": "*",
         "yiisoft/yii2-gii": "*",
+        "2amigos/yii2-file-upload-widget" : "*",
         "yiisoft/yii2-faker": "*"
+        
     },
     "config": {
         "process-timeout": 1800

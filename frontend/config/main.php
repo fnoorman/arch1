@@ -30,12 +30,12 @@ return [
         'errorHandler' => [
             'errorAction' => 'site/error',
         ],
-        'view' => [
-            'theme' => [
-                'pathMap' => ['@frontend/views' => '@frontend/themes/unify'],
-                'baseUrl' => '@web/themes/unify',
-            ],
-        ],
+        // 'view' => [
+        //     'theme' => [
+        //         'pathMap' => ['@frontend/views' => '@frontend/themes/unify'],
+        //         'baseUrl' => '@web/themes/unify',
+        //     ],
+        // ],
     ],
     'params' => $params,
 ];

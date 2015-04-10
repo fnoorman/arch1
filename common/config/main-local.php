@@ -31,13 +31,18 @@ return [
             'showScriptName' => false,
             'rules' => [
                 ['class' => 'yii\rest\UrlRule', 'controller' => 'api/country'],
+                ['class' => 'yii\rest\UrlRule', 'controller' => 'api/qrcode',
+                     'extraPatterns' => ['GET {code}' => 'view'],
+                     'tokens' => ['{code}' => '<code:\\w+>']
+                ],
             ],
-        ]
+        ],
+
     ],
     'modules' => [
         'api' => [
             'class' => 'common\modules\api\Module',
         ],
     ],
-    
+
 ];

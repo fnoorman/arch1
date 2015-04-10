@@ -34,6 +34,7 @@ phpunit.phar
 #remove tracking frontend and backend runtime files
 /frontend/runtime
 /backend/runtime
-
+/backend/web/assets
+/frontend/web/assets
 #remove tracking css under unify
 /frontend/web/unify

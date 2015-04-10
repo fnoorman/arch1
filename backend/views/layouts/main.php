@@ -44,6 +44,13 @@ AppAsset::register($this);
                     'url' => ['/site/logout'],
                     'linkOptions' => ['data-method' => 'post']
                 ];
+                $menuItems[] = ['label'=>'Mobile Data','url'=>'#', 'items'=>[
+                    ['label' => 'QR Code', 'url' => ['/qrcode']],
+                    ['label' => 'QR Info', 'url' => ['/qrinfo']],
+                    ['label' => 'Web Comic', 'url' => ['/webcomic']],
+                    ['label' => 'Motion Comic', 'url' => ['/motioncomic']],
+                    ['label' => 'Profile', 'url' => ['/profile']]
+                ]];
 
             }
             echo Nav::widget([

@@ -1,0 +1,1333 @@
+2015-02-22 23:53:40 [-][-][-][error][yii\console\Exception] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: parser/parse' in /Users/Fahmy/Sites/arch1/vendor/yiisoft/yii2/base/Controller.php:122
+Stack trace:
+#0 /Users/Fahmy/Sites/arch1/vendor/yiisoft/yii2/console/Controller.php(91): yii\base\Controller->runAction('parse', Array)
+#1 /Users/Fahmy/Sites/arch1/vendor/yiisoft/yii2/base/Module.php(455): yii\console\Controller->runAction('parse', Array)
+#2 /Users/Fahmy/Sites/arch1/vendor/yiisoft/yii2/console/Application.php(161): yii\base\Module->runAction('parser/parse', Array)
+#3 /Users/Fahmy/Sites/arch1/vendor/yiisoft/yii2/console/Application.php(137): yii\console\Application->runAction('parser/parse', Array)
+#4 /Users/Fahmy/Sites/arch1/vendor/yiisoft/yii2/base/Application.php(375): yii\console\Application->handleRequest(Object(yii\console\Request))
+#5 /Users/Fahmy/Sites/arch1/yii(31): yii\base\Application->run()
+#6 {main}
+
+Next exception 'yii\console\Exception' with message 'Unknown command "parser/parse".' in /Users/Fahmy/Sites/arch1/vendor/yiisoft/yii2/console/Application.php:163
+Stack trace:
+#0 /Users/Fahmy/Sites/arch1/vendor/yiisoft/yii2/console/Application.php(137): yii\console\Application->runAction('parser/parse', Array)
+#1 /Users/Fahmy/Sites/arch1/vendor/yiisoft/yii2/base/Application.php(375): yii\console\Application->handleRequest(Object(yii\console\Request))
+#2 /Users/Fahmy/Sites/arch1/yii(31): yii\base\Application->run()
+#3 {main}
+2015-02-22 23:53:39 [-][-][-][info][application] $_SERVER = [
+    'TERM_PROGRAM' => 'iTerm.app'
+    'ANDROID_HOME' => '/Users/Fahmy/Development/android-sdk-macosx'
+    'SHELL' => '/bin/bash'
+    'TERM' => 'xterm-256color'
+    'CLICOLOR' => '1'
+    'TMPDIR' => '/var/folders/hj/zdlv53xn3nl49t14mq13mlq80000gn/T/'
+    'Apple_PubSub_Socket_Render' => '/private/tmp/com.apple.launchd.MqxvyL7t6Q/Render'
+    'OLDPWD' => '/Users/Fahmy'
+    'USER' => 'Fahmy'
+    'SSH_AUTH_SOCK' => '/private/tmp/com.apple.launchd.S4yNbFYMD9/Listeners'
+    '__CF_USER_TEXT_ENCODING' => '0x1F5:0x0:0x0'
+    'PATH' => '/usr/local/php5/bin:/usr/local/bin:/usr/local/Cellar/git/2.0.0/bin:/usr/local/mysql/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/Fahmy/Development/android-sdk-macosx/platform-tools:/Users/Fahmy/Development/android-sdk-macosx/tools'
+    'PWD' => '/Users/Fahmy/Sites/arch1'
+    'ITERM_PROFILE' => 'Custom'
+    'XPC_FLAGS' => '0x0'
+    'XPC_SERVICE_NAME' => '0'
+    'SHLVL' => '1'
+    'HOME' => '/Users/Fahmy'
+    'ITERM_SESSION_ID' => 'w0t0p0'
+    'LOGNAME' => 'Fahmy'
+    'LC_CTYPE' => 'UTF-8'
+    '_' => './yii'
+    'PHP_SELF' => './yii'
+    'SCRIPT_NAME' => './yii'
+    'SCRIPT_FILENAME' => './yii'
+    'PATH_TRANSLATED' => './yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1424620419.9953
+    'REQUEST_TIME' => 1424620419
+    'argv' => [
+        0 => './yii'
+        1 => 'parser/parse'
+    ]
+    'argc' => 2
+]
+2015-02-22 23:53:49 [-][-][-][error][yii\console\Exception] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: parser/parse' in /Users/Fahmy/Sites/arch1/vendor/yiisoft/yii2/base/Controller.php:122
+Stack trace:
+#0 /Users/Fahmy/Sites/arch1/vendor/yiisoft/yii2/console/Controller.php(91): yii\base\Controller->runAction('parse', Array)
+#1 /Users/Fahmy/Sites/arch1/vendor/yiisoft/yii2/base/Module.php(455): yii\console\Controller->runAction('parse', Array)
+#2 /Users/Fahmy/Sites/arch1/vendor/yiisoft/yii2/console/Application.php(161): yii\base\Module->runAction('parser/parse', Array)
+#3 /Users/Fahmy/Sites/arch1/vendor/yiisoft/yii2/console/Application.php(137): yii\console\Application->runAction('parser/parse', Array)
+#4 /Users/Fahmy/Sites/arch1/vendor/yiisoft/yii2/base/Application.php(375): yii\console\Application->handleRequest(Object(yii\console\Request))
+#5 /Users/Fahmy/Sites/arch1/yii(31): yii\base\Application->run()
+#6 {main}
+
+Next exception 'yii\console\Exception' with message 'Unknown command "parser/parse".' in /Users/Fahmy/Sites/arch1/vendor/yiisoft/yii2/console/Application.php:163
+Stack trace:
+#0 /Users/Fahmy/Sites/arch1/vendor/yiisoft/yii2/console/Application.php(137): yii\console\Application->runAction('parser/parse', Array)
+#1 /Users/Fahmy/Sites/arch1/vendor/yiisoft/yii2/base/Application.php(375): yii\console\Application->handleRequest(Object(yii\console\Request))
+#2 /Users/Fahmy/Sites/arch1/yii(31): yii\base\Application->run()
+#3 {main}
+2015-02-22 23:53:49 [-][-][-][info][application] $_SERVER = [
+    'TERM_PROGRAM' => 'iTerm.app'
+    'ANDROID_HOME' => '/Users/Fahmy/Development/android-sdk-macosx'
+    'SHELL' => '/bin/bash'
+    'TERM' => 'xterm-256color'
+    'CLICOLOR' => '1'
+    'TMPDIR' => '/var/folders/hj/zdlv53xn3nl49t14mq13mlq80000gn/T/'
+    'Apple_PubSub_Socket_Render' => '/private/tmp/com.apple.launchd.MqxvyL7t6Q/Render'
+    'OLDPWD' => '/Users/Fahmy'
+    'USER' => 'Fahmy'
+    'SSH_AUTH_SOCK' => '/private/tmp/com.apple.launchd.S4yNbFYMD9/Listeners'
+    '__CF_USER_TEXT_ENCODING' => '0x1F5:0x0:0x0'
+    'PATH' => '/usr/local/php5/bin:/usr/local/bin:/usr/local/Cellar/git/2.0.0/bin:/usr/local/mysql/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/Fahmy/Development/android-sdk-macosx/platform-tools:/Users/Fahmy/Development/android-sdk-macosx/tools'
+    'PWD' => '/Users/Fahmy/Sites/arch1'
+    'ITERM_PROFILE' => 'Custom'
+    'XPC_FLAGS' => '0x0'
+    'XPC_SERVICE_NAME' => '0'
+    'SHLVL' => '1'
+    'HOME' => '/Users/Fahmy'
+    'ITERM_SESSION_ID' => 'w0t0p0'
+    'LOGNAME' => 'Fahmy'
+    'LC_CTYPE' => 'UTF-8'
+    '_' => './yii'
+    'PHP_SELF' => './yii'
+    'SCRIPT_NAME' => './yii'
+    'SCRIPT_FILENAME' => './yii'
+    'PATH_TRANSLATED' => './yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1424620429.793
+    'REQUEST_TIME' => 1424620429
+    'argv' => [
+        0 => './yii'
+        1 => 'parser/parse'
+    ]
+    'argc' => 2
+]
+2015-02-22 23:53:57 [-][-][-][error][yii\console\Exception] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: parser/parse' in /Users/Fahmy/Sites/arch1/vendor/yiisoft/yii2/base/Controller.php:122
+Stack trace:
+#0 /Users/Fahmy/Sites/arch1/vendor/yiisoft/yii2/console/Controller.php(91): yii\base\Controller->runAction('parse', Array)
+#1 /Users/Fahmy/Sites/arch1/vendor/yiisoft/yii2/base/Module.php(455): yii\console\Controller->runAction('parse', Array)
+#2 /Users/Fahmy/Sites/arch1/vendor/yiisoft/yii2/console/Application.php(161): yii\base\Module->runAction('parser/parse', Array)
+#3 /Users/Fahmy/Sites/arch1/vendor/yiisoft/yii2/console/Application.php(137): yii\console\Application->runAction('parser/parse', Array)
+#4 /Users/Fahmy/Sites/arch1/vendor/yiisoft/yii2/base/Application.php(375): yii\console\Application->handleRequest(Object(yii\console\Request))
+#5 /Users/Fahmy/Sites/arch1/yii(31): yii\base\Application->run()
+#6 {main}
+
+Next exception 'yii\console\Exception' with message 'Unknown command "parser/parse".' in /Users/Fahmy/Sites/arch1/vendor/yiisoft/yii2/console/Application.php:163
+Stack trace:
+#0 /Users/Fahmy/Sites/arch1/vendor/yiisoft/yii2/console/Application.php(137): yii\console\Application->runAction('parser/parse', Array)
+#1 /Users/Fahmy/Sites/arch1/vendor/yiisoft/yii2/base/Application.php(375): yii\console\Application->handleRequest(Object(yii\console\Request))
+#2 /Users/Fahmy/Sites/arch1/yii(31): yii\base\Application->run()
+#3 {main}
+2015-02-22 23:53:57 [-][-][-][info][application] $_SERVER = [
+    'TERM_PROGRAM' => 'iTerm.app'
+    'ANDROID_HOME' => '/Users/Fahmy/Development/android-sdk-macosx'
+    'SHELL' => '/bin/bash'
+    'TERM' => 'xterm-256color'
+    'CLICOLOR' => '1'
+    'TMPDIR' => '/var/folders/hj/zdlv53xn3nl49t14mq13mlq80000gn/T/'
+    'Apple_PubSub_Socket_Render' => '/private/tmp/com.apple.launchd.MqxvyL7t6Q/Render'
+    'OLDPWD' => '/Users/Fahmy'
+    'USER' => 'Fahmy'
+    'SSH_AUTH_SOCK' => '/private/tmp/com.apple.launchd.S4yNbFYMD9/Listeners'
+    '__CF_USER_TEXT_ENCODING' => '0x1F5:0x0:0x0'
+    'PATH' => '/usr/local/php5/bin:/usr/local/bin:/usr/local/Cellar/git/2.0.0/bin:/usr/local/mysql/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/Fahmy/Development/android-sdk-macosx/platform-tools:/Users/Fahmy/Development/android-sdk-macosx/tools'
+    'PWD' => '/Users/Fahmy/Sites/arch1'
+    'ITERM_PROFILE' => 'Custom'
+    'XPC_FLAGS' => '0x0'
+    'XPC_SERVICE_NAME' => '0'
+    'SHLVL' => '1'
+    'HOME' => '/Users/Fahmy'
+    'ITERM_SESSION_ID' => 'w0t0p0'
+    'LOGNAME' => 'Fahmy'
+    'LC_CTYPE' => 'UTF-8'
+    '_' => './yii'
+    'PHP_SELF' => './yii'
+    'SCRIPT_NAME' => './yii'
+    'SCRIPT_FILENAME' => './yii'
+    'PATH_TRANSLATED' => './yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1424620437.9746
+    'REQUEST_TIME' => 1424620437
+    'argv' => [
+        0 => './yii'
+        1 => 'parser/parse'
+    ]
+    'argc' => 2
+]
+2015-02-22 23:54:41 [-][-][-][error][yii\console\Exception] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: parser/parse' in /Users/Fahmy/Sites/arch1/vendor/yiisoft/yii2/base/Controller.php:122
+Stack trace:
+#0 /Users/Fahmy/Sites/arch1/vendor/yiisoft/yii2/console/Controller.php(91): yii\base\Controller->runAction('parse', Array)
+#1 /Users/Fahmy/Sites/arch1/vendor/yiisoft/yii2/base/Module.php(455): yii\console\Controller->runAction('parse', Array)
+#2 /Users/Fahmy/Sites/arch1/vendor/yiisoft/yii2/console/Application.php(161): yii\base\Module->runAction('parser/parse', Array)
+#3 /Users/Fahmy/Sites/arch1/vendor/yiisoft/yii2/console/Application.php(137): yii\console\Application->runAction('parser/parse', Array)
+#4 /Users/Fahmy/Sites/arch1/vendor/yiisoft/yii2/base/Application.php(375): yii\console\Application->handleRequest(Object(yii\console\Request))
+#5 /Users/Fahmy/Sites/arch1/yii(31): yii\base\Application->run()
+#6 {main}
+
+Next exception 'yii\console\Exception' with message 'Unknown command "parser/parse".' in /Users/Fahmy/Sites/arch1/vendor/yiisoft/yii2/console/Application.php:163
+Stack trace:
+#0 /Users/Fahmy/Sites/arch1/vendor/yiisoft/yii2/console/Application.php(137): yii\console\Application->runAction('parser/parse', Array)
+#1 /Users/Fahmy/Sites/arch1/vendor/yiisoft/yii2/base/Application.php(375): yii\console\Application->handleRequest(Object(yii\console\Request))
+#2 /Users/Fahmy/Sites/arch1/yii(31): yii\base\Application->run()
+#3 {main}
+2015-02-22 23:54:41 [-][-][-][info][application] $_SERVER = [
+    'TERM_PROGRAM' => 'iTerm.app'
+    'ANDROID_HOME' => '/Users/Fahmy/Development/android-sdk-macosx'
+    'SHELL' => '/bin/bash'
+    'TERM' => 'xterm-256color'
+    'CLICOLOR' => '1'
+    'TMPDIR' => '/var/folders/hj/zdlv53xn3nl49t14mq13mlq80000gn/T/'
+    'Apple_PubSub_Socket_Render' => '/private/tmp/com.apple.launchd.MqxvyL7t6Q/Render'
+    'OLDPWD' => '/Users/Fahmy'
+    'USER' => 'Fahmy'
+    'SSH_AUTH_SOCK' => '/private/tmp/com.apple.launchd.S4yNbFYMD9/Listeners'
+    '__CF_USER_TEXT_ENCODING' => '0x1F5:0x0:0x0'
+    'PATH' => '/usr/local/php5/bin:/usr/local/bin:/usr/local/Cellar/git/2.0.0/bin:/usr/local/mysql/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/Fahmy/Development/android-sdk-macosx/platform-tools:/Users/Fahmy/Development/android-sdk-macosx/tools'
+    'PWD' => '/Users/Fahmy/Sites/arch1'
+    'ITERM_PROFILE' => 'Custom'
+    'XPC_FLAGS' => '0x0'
+    'XPC_SERVICE_NAME' => '0'
+    'SHLVL' => '1'
+    'HOME' => '/Users/Fahmy'
+    'ITERM_SESSION_ID' => 'w0t0p0'
+    'LOGNAME' => 'Fahmy'
+    'LC_CTYPE' => 'UTF-8'
+    '_' => '/usr/local/php5/bin/php'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1424620480.9989
+    'REQUEST_TIME' => 1424620480
+    'argv' => [
+        0 => 'yii'
+        1 => 'parser/parse'
+    ]
+    'argc' => 2
+]
+2015-02-23 00:06:14 [-][-][-][error][yii\base\ErrorException:4] exception 'yii\base\ErrorException' with message 'syntax error, unexpected 'return' (T_RETURN), expecting ',' or ';'' in /Users/Fahmy/Sites/arch1/console/controllers/ParserController.php:16
+Stack trace:
+#0 /Users/Fahmy/Sites/arch1/vendor/yiisoft/yii2/base/Module.php(563): ::spl_autoload_call()
+#1 /Users/Fahmy/Sites/arch1/vendor/yiisoft/yii2/base/Module.php(563): ::class_exists()
+#2 /Users/Fahmy/Sites/arch1/vendor/yiisoft/yii2/base/Module.php(521): yii\base\Module->createControllerByID()
+#3 /Users/Fahmy/Sites/arch1/vendor/yiisoft/yii2/base/Module.php(449): yii\base\Module->createController()
+#4 /Users/Fahmy/Sites/arch1/vendor/yiisoft/yii2/console/Application.php(161): yii\base\Module->runAction()
+#5 /Users/Fahmy/Sites/arch1/vendor/yiisoft/yii2/console/Application.php(137): yii\console\Application->runAction()
+#6 /Users/Fahmy/Sites/arch1/vendor/yiisoft/yii2/base/Application.php(375): yii\console\Application->handleRequest()
+#7 /Users/Fahmy/Sites/arch1/yii(31): yii\base\Application->run()
+#8 {main}
+2015-02-23 00:06:14 [-][-][-][info][application] $_SERVER = [
+    'TERM_PROGRAM' => 'iTerm.app'
+    'ANDROID_HOME' => '/Users/Fahmy/Development/android-sdk-macosx'
+    'SHELL' => '/bin/bash'
+    'TERM' => 'xterm-256color'
+    'CLICOLOR' => '1'
+    'TMPDIR' => '/var/folders/hj/zdlv53xn3nl49t14mq13mlq80000gn/T/'
+    'Apple_PubSub_Socket_Render' => '/private/tmp/com.apple.launchd.MqxvyL7t6Q/Render'
+    'OLDPWD' => '/Users/Fahmy'
+    'USER' => 'Fahmy'
+    'SSH_AUTH_SOCK' => '/private/tmp/com.apple.launchd.S4yNbFYMD9/Listeners'
+    '__CF_USER_TEXT_ENCODING' => '0x1F5:0x0:0x0'
+    'PATH' => '/usr/local/php5/bin:/usr/local/bin:/usr/local/Cellar/git/2.0.0/bin:/usr/local/mysql/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/Fahmy/Development/android-sdk-macosx/platform-tools:/Users/Fahmy/Development/android-sdk-macosx/tools'
+    'PWD' => '/Users/Fahmy/Sites/arch1'
+    'ITERM_PROFILE' => 'Custom'
+    'XPC_FLAGS' => '0x0'
+    'XPC_SERVICE_NAME' => '0'
+    'SHLVL' => '1'
+    'HOME' => '/Users/Fahmy'
+    'ITERM_SESSION_ID' => 'w0t0p0'
+    'LOGNAME' => 'Fahmy'
+    'LC_CTYPE' => 'UTF-8'
+    '_' => './yii'
+    'PHP_SELF' => './yii'
+    'SCRIPT_NAME' => './yii'
+    'SCRIPT_FILENAME' => './yii'
+    'PATH_TRANSLATED' => './yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1424621174.8577
+    'REQUEST_TIME' => 1424621174
+    'argv' => [
+        0 => './yii'
+        1 => 'parser/parse'
+    ]
+    'argc' => 2
+]
+2015-02-23 00:06:27 [-][-][-][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Array to string conversion' in /Users/Fahmy/Sites/arch1/console/controllers/ParserController.php:15
+Stack trace:
+#0 /Users/Fahmy/Sites/arch1/vendor/yiisoft/yii2/base/InlineAction.php(55): ::call_user_func_array:{/Users/Fahmy/Sites/arch1/vendor/yiisoft/yii2/base/InlineAction.php:55}()
+#1 /Users/Fahmy/Sites/arch1/vendor/yiisoft/yii2/base/Controller.php(151): yii\base\InlineAction->runWithParams()
+#2 /Users/Fahmy/Sites/arch1/vendor/yiisoft/yii2/console/Controller.php(91): yii\base\Controller->runAction()
+#3 /Users/Fahmy/Sites/arch1/vendor/yiisoft/yii2/base/Module.php(455): yii\console\Controller->runAction()
+#4 /Users/Fahmy/Sites/arch1/vendor/yiisoft/yii2/console/Application.php(161): yii\base\Module->runAction()
+#5 /Users/Fahmy/Sites/arch1/vendor/yiisoft/yii2/console/Application.php(137): yii\console\Application->runAction()
+#6 /Users/Fahmy/Sites/arch1/vendor/yiisoft/yii2/base/Application.php(375): yii\console\Application->handleRequest()
+#7 /Users/Fahmy/Sites/arch1/yii(31): yii\base\Application->run()
+#8 {main}
+2015-02-23 00:06:27 [-][-][-][info][application] $_SERVER = [
+    'TERM_PROGRAM' => 'iTerm.app'
+    'ANDROID_HOME' => '/Users/Fahmy/Development/android-sdk-macosx'
+    'SHELL' => '/bin/bash'
+    'TERM' => 'xterm-256color'
+    'CLICOLOR' => '1'
+    'TMPDIR' => '/var/folders/hj/zdlv53xn3nl49t14mq13mlq80000gn/T/'
+    'Apple_PubSub_Socket_Render' => '/private/tmp/com.apple.launchd.MqxvyL7t6Q/Render'
+    'OLDPWD' => '/Users/Fahmy'
+    'USER' => 'Fahmy'
+    'SSH_AUTH_SOCK' => '/private/tmp/com.apple.launchd.S4yNbFYMD9/Listeners'
+    '__CF_USER_TEXT_ENCODING' => '0x1F5:0x0:0x0'
+    'PATH' => '/usr/local/php5/bin:/usr/local/bin:/usr/local/Cellar/git/2.0.0/bin:/usr/local/mysql/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/Fahmy/Development/android-sdk-macosx/platform-tools:/Users/Fahmy/Development/android-sdk-macosx/tools'
+    'PWD' => '/Users/Fahmy/Sites/arch1'
+    'ITERM_PROFILE' => 'Custom'
+    'XPC_FLAGS' => '0x0'
+    'XPC_SERVICE_NAME' => '0'
+    'SHLVL' => '1'
+    'HOME' => '/Users/Fahmy'
+    'ITERM_SESSION_ID' => 'w0t0p0'
+    'LOGNAME' => 'Fahmy'
+    'LC_CTYPE' => 'UTF-8'
+    '_' => './yii'
+    'PHP_SELF' => './yii'
+    'SCRIPT_NAME' => './yii'
+    'SCRIPT_FILENAME' => './yii'
+    'PATH_TRANSLATED' => './yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1424621187.0176
+    'REQUEST_TIME' => 1424621187
+    'argv' => [
+        0 => './yii'
+        1 => 'parser/parse'
+    ]
+    'argc' => 2
+]
+2015-02-23 00:37:00 [-][-][-][error][yii\base\ErrorException:2] exception 'yii\base\ErrorException' with message 'Illegal offset type in isset or empty' in /Users/Fahmy/Sites/arch1/console/components/Parser/simple_html_dom.php:299
+Stack trace:
+#0 /Users/Fahmy/Sites/arch1/console/controllers/ParserController.php(14): simple_html_dom->find()
+#1 /Users/Fahmy/Sites/arch1/vendor/yiisoft/yii2/base/InlineAction.php(55): console\controllers\ParserController->actionParse()
+#2 /Users/Fahmy/Sites/arch1/vendor/yiisoft/yii2/base/InlineAction.php(55): ::call_user_func_array:{/Users/Fahmy/Sites/arch1/vendor/yiisoft/yii2/base/InlineAction.php:55}()
+#3 /Users/Fahmy/Sites/arch1/vendor/yiisoft/yii2/base/Controller.php(151): yii\base\InlineAction->runWithParams()
+#4 /Users/Fahmy/Sites/arch1/vendor/yiisoft/yii2/console/Controller.php(91): yii\base\Controller->runAction()
+#5 /Users/Fahmy/Sites/arch1/vendor/yiisoft/yii2/base/Module.php(455): yii\console\Controller->runAction()
+#6 /Users/Fahmy/Sites/arch1/vendor/yiisoft/yii2/console/Application.php(161): yii\base\Module->runAction()
+#7 /Users/Fahmy/Sites/arch1/vendor/yiisoft/yii2/console/Application.php(137): yii\console\Application->runAction()
+#8 /Users/Fahmy/Sites/arch1/vendor/yiisoft/yii2/base/Application.php(375): yii\console\Application->handleRequest()
+#9 /Users/Fahmy/Sites/arch1/yii(31): yii\base\Application->run()
+#10 {main}
+2015-02-23 00:37:00 [-][-][-][info][application] $_SERVER = [
+    'TERM_PROGRAM' => 'iTerm.app'
+    'ANDROID_HOME' => '/Users/Fahmy/Development/android-sdk-macosx'
+    'SHELL' => '/bin/bash'
+    'TERM' => 'xterm-256color'
+    'CLICOLOR' => '1'
+    'TMPDIR' => '/var/folders/hj/zdlv53xn3nl49t14mq13mlq80000gn/T/'
+    'Apple_PubSub_Socket_Render' => '/private/tmp/com.apple.launchd.MqxvyL7t6Q/Render'
+    'OLDPWD' => '/Users/Fahmy'
+    'USER' => 'Fahmy'
+    'SSH_AUTH_SOCK' => '/private/tmp/com.apple.launchd.S4yNbFYMD9/Listeners'
+    '__CF_USER_TEXT_ENCODING' => '0x1F5:0x0:0x0'
+    'PATH' => '/usr/local/php5/bin:/usr/local/bin:/usr/local/Cellar/git/2.0.0/bin:/usr/local/mysql/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/Fahmy/Development/android-sdk-macosx/platform-tools:/Users/Fahmy/Development/android-sdk-macosx/tools'
+    'PWD' => '/Users/Fahmy/Sites/arch1'
+    'ITERM_PROFILE' => 'Custom'
+    'XPC_FLAGS' => '0x0'
+    'XPC_SERVICE_NAME' => '0'
+    'SHLVL' => '1'
+    'HOME' => '/Users/Fahmy'
+    'ITERM_SESSION_ID' => 'w0t0p0'
+    'LOGNAME' => 'Fahmy'
+    'LC_CTYPE' => 'UTF-8'
+    '_' => './yii'
+    'PHP_SELF' => './yii'
+    'SCRIPT_NAME' => './yii'
+    'SCRIPT_FILENAME' => './yii'
+    'PATH_TRANSLATED' => './yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1424623020.4783
+    'REQUEST_TIME' => 1424623020
+    'argv' => [
+        0 => './yii'
+        1 => 'parser/parse'
+    ]
+    'argc' => 2
+]
+2015-02-23 00:37:44 [-][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Call to a member function first_child() on a non-object' in /Users/Fahmy/Sites/arch1/console/controllers/ParserController.php:14
+Stack trace:
+#0 /Users/Fahmy/Sites/arch1/vendor/yiisoft/yii2/base/InlineAction.php(55): ::call_user_func_array:{/Users/Fahmy/Sites/arch1/vendor/yiisoft/yii2/base/InlineAction.php:55}()
+#1 /Users/Fahmy/Sites/arch1/vendor/yiisoft/yii2/base/Controller.php(151): yii\base\InlineAction->runWithParams()
+#2 /Users/Fahmy/Sites/arch1/vendor/yiisoft/yii2/console/Controller.php(91): yii\base\Controller->runAction()
+#3 /Users/Fahmy/Sites/arch1/vendor/yiisoft/yii2/base/Module.php(455): yii\console\Controller->runAction()
+#4 /Users/Fahmy/Sites/arch1/vendor/yiisoft/yii2/console/Application.php(161): yii\base\Module->runAction()
+#5 /Users/Fahmy/Sites/arch1/vendor/yiisoft/yii2/console/Application.php(137): yii\console\Application->runAction()
+#6 /Users/Fahmy/Sites/arch1/vendor/yiisoft/yii2/base/Application.php(375): yii\console\Application->handleRequest()
+#7 /Users/Fahmy/Sites/arch1/yii(31): yii\base\Application->run()
+#8 {main}
+2015-02-23 00:37:44 [-][-][-][info][application] $_SERVER = [
+    'TERM_PROGRAM' => 'iTerm.app'
+    'ANDROID_HOME' => '/Users/Fahmy/Development/android-sdk-macosx'
+    'SHELL' => '/bin/bash'
+    'TERM' => 'xterm-256color'
+    'CLICOLOR' => '1'
+    'TMPDIR' => '/var/folders/hj/zdlv53xn3nl49t14mq13mlq80000gn/T/'
+    'Apple_PubSub_Socket_Render' => '/private/tmp/com.apple.launchd.MqxvyL7t6Q/Render'
+    'OLDPWD' => '/Users/Fahmy'
+    'USER' => 'Fahmy'
+    'SSH_AUTH_SOCK' => '/private/tmp/com.apple.launchd.S4yNbFYMD9/Listeners'
+    '__CF_USER_TEXT_ENCODING' => '0x1F5:0x0:0x0'
+    'PATH' => '/usr/local/php5/bin:/usr/local/bin:/usr/local/Cellar/git/2.0.0/bin:/usr/local/mysql/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/Fahmy/Development/android-sdk-macosx/platform-tools:/Users/Fahmy/Development/android-sdk-macosx/tools'
+    'PWD' => '/Users/Fahmy/Sites/arch1'
+    'ITERM_PROFILE' => 'Custom'
+    'XPC_FLAGS' => '0x0'
+    'XPC_SERVICE_NAME' => '0'
+    'SHLVL' => '1'
+    'HOME' => '/Users/Fahmy'
+    'ITERM_SESSION_ID' => 'w0t0p0'
+    'LOGNAME' => 'Fahmy'
+    'LC_CTYPE' => 'UTF-8'
+    '_' => './yii'
+    'PHP_SELF' => './yii'
+    'SCRIPT_NAME' => './yii'
+    'SCRIPT_FILENAME' => './yii'
+    'PATH_TRANSLATED' => './yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1424623064.3851
+    'REQUEST_TIME' => 1424623064
+    'argv' => [
+        0 => './yii'
+        1 => 'parser/parse'
+    ]
+    'argc' => 2
+]
+2015-02-23 00:43:18 [-][-][-][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Trying to get property of non-object' in /Users/Fahmy/Sites/arch1/console/controllers/ParserController.php:15
+Stack trace:
+#0 /Users/Fahmy/Sites/arch1/vendor/yiisoft/yii2/base/InlineAction.php(55): ::call_user_func_array:{/Users/Fahmy/Sites/arch1/vendor/yiisoft/yii2/base/InlineAction.php:55}()
+#1 /Users/Fahmy/Sites/arch1/vendor/yiisoft/yii2/base/Controller.php(151): yii\base\InlineAction->runWithParams()
+#2 /Users/Fahmy/Sites/arch1/vendor/yiisoft/yii2/console/Controller.php(91): yii\base\Controller->runAction()
+#3 /Users/Fahmy/Sites/arch1/vendor/yiisoft/yii2/base/Module.php(455): yii\console\Controller->runAction()
+#4 /Users/Fahmy/Sites/arch1/vendor/yiisoft/yii2/console/Application.php(161): yii\base\Module->runAction()
+#5 /Users/Fahmy/Sites/arch1/vendor/yiisoft/yii2/console/Application.php(137): yii\console\Application->runAction()
+#6 /Users/Fahmy/Sites/arch1/vendor/yiisoft/yii2/base/Application.php(375): yii\console\Application->handleRequest()
+#7 /Users/Fahmy/Sites/arch1/yii(31): yii\base\Application->run()
+#8 {main}
+2015-02-23 00:43:18 [-][-][-][info][application] $_SERVER = [
+    'TERM_PROGRAM' => 'iTerm.app'
+    'ANDROID_HOME' => '/Users/Fahmy/Development/android-sdk-macosx'
+    'SHELL' => '/bin/bash'
+    'TERM' => 'xterm-256color'
+    'CLICOLOR' => '1'
+    'TMPDIR' => '/var/folders/hj/zdlv53xn3nl49t14mq13mlq80000gn/T/'
+    'Apple_PubSub_Socket_Render' => '/private/tmp/com.apple.launchd.MqxvyL7t6Q/Render'
+    'OLDPWD' => '/Users/Fahmy'
+    'USER' => 'Fahmy'
+    'SSH_AUTH_SOCK' => '/private/tmp/com.apple.launchd.S4yNbFYMD9/Listeners'
+    '__CF_USER_TEXT_ENCODING' => '0x1F5:0x0:0x0'
+    'PATH' => '/usr/local/php5/bin:/usr/local/bin:/usr/local/Cellar/git/2.0.0/bin:/usr/local/mysql/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/Fahmy/Development/android-sdk-macosx/platform-tools:/Users/Fahmy/Development/android-sdk-macosx/tools'
+    'PWD' => '/Users/Fahmy/Sites/arch1'
+    'ITERM_PROFILE' => 'Custom'
+    'XPC_FLAGS' => '0x0'
+    'XPC_SERVICE_NAME' => '0'
+    'SHLVL' => '1'
+    'HOME' => '/Users/Fahmy'
+    'ITERM_SESSION_ID' => 'w0t0p0'
+    'LOGNAME' => 'Fahmy'
+    'LC_CTYPE' => 'UTF-8'
+    '_' => './yii'
+    'PHP_SELF' => './yii'
+    'SCRIPT_NAME' => './yii'
+    'SCRIPT_FILENAME' => './yii'
+    'PATH_TRANSLATED' => './yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1424623398.4213
+    'REQUEST_TIME' => 1424623398
+    'argv' => [
+        0 => './yii'
+        1 => 'parser/parse'
+    ]
+    'argc' => 2
+]
+2015-02-23 00:47:16 [-][-][-][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Trying to get property of non-object' in /Users/Fahmy/Sites/arch1/console/controllers/ParserController.php:15
+Stack trace:
+#0 /Users/Fahmy/Sites/arch1/vendor/yiisoft/yii2/base/InlineAction.php(55): ::call_user_func_array:{/Users/Fahmy/Sites/arch1/vendor/yiisoft/yii2/base/InlineAction.php:55}()
+#1 /Users/Fahmy/Sites/arch1/vendor/yiisoft/yii2/base/Controller.php(151): yii\base\InlineAction->runWithParams()
+#2 /Users/Fahmy/Sites/arch1/vendor/yiisoft/yii2/console/Controller.php(91): yii\base\Controller->runAction()
+#3 /Users/Fahmy/Sites/arch1/vendor/yiisoft/yii2/base/Module.php(455): yii\console\Controller->runAction()
+#4 /Users/Fahmy/Sites/arch1/vendor/yiisoft/yii2/console/Application.php(161): yii\base\Module->runAction()
+#5 /Users/Fahmy/Sites/arch1/vendor/yiisoft/yii2/console/Application.php(137): yii\console\Application->runAction()
+#6 /Users/Fahmy/Sites/arch1/vendor/yiisoft/yii2/base/Application.php(375): yii\console\Application->handleRequest()
+#7 /Users/Fahmy/Sites/arch1/yii(31): yii\base\Application->run()
+#8 {main}
+2015-02-23 00:47:16 [-][-][-][info][application] $_SERVER = [
+    'TERM_PROGRAM' => 'iTerm.app'
+    'ANDROID_HOME' => '/Users/Fahmy/Development/android-sdk-macosx'
+    'SHELL' => '/bin/bash'
+    'TERM' => 'xterm-256color'
+    'CLICOLOR' => '1'
+    'TMPDIR' => '/var/folders/hj/zdlv53xn3nl49t14mq13mlq80000gn/T/'
+    'Apple_PubSub_Socket_Render' => '/private/tmp/com.apple.launchd.MqxvyL7t6Q/Render'
+    'OLDPWD' => '/Users/Fahmy'
+    'USER' => 'Fahmy'
+    'SSH_AUTH_SOCK' => '/private/tmp/com.apple.launchd.S4yNbFYMD9/Listeners'
+    '__CF_USER_TEXT_ENCODING' => '0x1F5:0x0:0x0'
+    'PATH' => '/usr/local/php5/bin:/usr/local/bin:/usr/local/Cellar/git/2.0.0/bin:/usr/local/mysql/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/Fahmy/Development/android-sdk-macosx/platform-tools:/Users/Fahmy/Development/android-sdk-macosx/tools'
+    'PWD' => '/Users/Fahmy/Sites/arch1'
+    'ITERM_PROFILE' => 'Custom'
+    'XPC_FLAGS' => '0x0'
+    'XPC_SERVICE_NAME' => '0'
+    'SHLVL' => '1'
+    'HOME' => '/Users/Fahmy'
+    'ITERM_SESSION_ID' => 'w0t0p0'
+    'LOGNAME' => 'Fahmy'
+    'LC_CTYPE' => 'UTF-8'
+    '_' => './yii'
+    'PHP_SELF' => './yii'
+    'SCRIPT_NAME' => './yii'
+    'SCRIPT_FILENAME' => './yii'
+    'PATH_TRANSLATED' => './yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1424623636.2606
+    'REQUEST_TIME' => 1424623636
+    'argv' => [
+        0 => './yii'
+        1 => 'parser/parse'
+    ]
+    'argc' => 2
+]
+2015-02-23 00:50:17 [-][-][-][error][yii\base\ErrorException:4] exception 'yii\base\ErrorException' with message 'syntax error, unexpected '}', expecting ',' or ';'' in /Users/Fahmy/Sites/arch1/console/controllers/ParserController.php:18
+Stack trace:
+#0 /Users/Fahmy/Sites/arch1/vendor/yiisoft/yii2/base/Module.php(563): ::spl_autoload_call()
+#1 /Users/Fahmy/Sites/arch1/vendor/yiisoft/yii2/base/Module.php(563): ::class_exists()
+#2 /Users/Fahmy/Sites/arch1/vendor/yiisoft/yii2/base/Module.php(521): yii\base\Module->createControllerByID()
+#3 /Users/Fahmy/Sites/arch1/vendor/yiisoft/yii2/base/Module.php(449): yii\base\Module->createController()
+#4 /Users/Fahmy/Sites/arch1/vendor/yiisoft/yii2/console/Application.php(161): yii\base\Module->runAction()
+#5 /Users/Fahmy/Sites/arch1/vendor/yiisoft/yii2/console/Application.php(137): yii\console\Application->runAction()
+#6 /Users/Fahmy/Sites/arch1/vendor/yiisoft/yii2/base/Application.php(375): yii\console\Application->handleRequest()
+#7 /Users/Fahmy/Sites/arch1/yii(31): yii\base\Application->run()
+#8 {main}
+2015-02-23 00:50:17 [-][-][-][info][application] $_SERVER = [
+    'TERM_PROGRAM' => 'iTerm.app'
+    'ANDROID_HOME' => '/Users/Fahmy/Development/android-sdk-macosx'
+    'SHELL' => '/bin/bash'
+    'TERM' => 'xterm-256color'
+    'CLICOLOR' => '1'
+    'TMPDIR' => '/var/folders/hj/zdlv53xn3nl49t14mq13mlq80000gn/T/'
+    'Apple_PubSub_Socket_Render' => '/private/tmp/com.apple.launchd.MqxvyL7t6Q/Render'
+    'OLDPWD' => '/Users/Fahmy'
+    'USER' => 'Fahmy'
+    'SSH_AUTH_SOCK' => '/private/tmp/com.apple.launchd.S4yNbFYMD9/Listeners'
+    '__CF_USER_TEXT_ENCODING' => '0x1F5:0x0:0x0'
+    'PATH' => '/usr/local/php5/bin:/usr/local/bin:/usr/local/Cellar/git/2.0.0/bin:/usr/local/mysql/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/Fahmy/Development/android-sdk-macosx/platform-tools:/Users/Fahmy/Development/android-sdk-macosx/tools'
+    'PWD' => '/Users/Fahmy/Sites/arch1'
+    'ITERM_PROFILE' => 'Custom'
+    'XPC_FLAGS' => '0x0'
+    'XPC_SERVICE_NAME' => '0'
+    'SHLVL' => '1'
+    'HOME' => '/Users/Fahmy'
+    'ITERM_SESSION_ID' => 'w0t0p0'
+    'LOGNAME' => 'Fahmy'
+    'LC_CTYPE' => 'UTF-8'
+    '_' => './yii'
+    'PHP_SELF' => './yii'
+    'SCRIPT_NAME' => './yii'
+    'SCRIPT_FILENAME' => './yii'
+    'PATH_TRANSLATED' => './yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1424623817.3395
+    'REQUEST_TIME' => 1424623817
+    'argv' => [
+        0 => './yii'
+        1 => 'parser/parse'
+    ]
+    'argc' => 2
+]
+2015-02-23 00:51:45 [-][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Cannot use object of type simple_html_dom_node as array' in /Users/Fahmy/Sites/arch1/console/controllers/ParserController.php:20
+Stack trace:
+#0 /Users/Fahmy/Sites/arch1/vendor/yiisoft/yii2/base/InlineAction.php(55): ::call_user_func_array:{/Users/Fahmy/Sites/arch1/vendor/yiisoft/yii2/base/InlineAction.php:55}()
+#1 /Users/Fahmy/Sites/arch1/vendor/yiisoft/yii2/base/Controller.php(151): yii\base\InlineAction->runWithParams()
+#2 /Users/Fahmy/Sites/arch1/vendor/yiisoft/yii2/console/Controller.php(91): yii\base\Controller->runAction()
+#3 /Users/Fahmy/Sites/arch1/vendor/yiisoft/yii2/base/Module.php(455): yii\console\Controller->runAction()
+#4 /Users/Fahmy/Sites/arch1/vendor/yiisoft/yii2/console/Application.php(161): yii\base\Module->runAction()
+#5 /Users/Fahmy/Sites/arch1/vendor/yiisoft/yii2/console/Application.php(137): yii\console\Application->runAction()
+#6 /Users/Fahmy/Sites/arch1/vendor/yiisoft/yii2/base/Application.php(375): yii\console\Application->handleRequest()
+#7 /Users/Fahmy/Sites/arch1/yii(31): yii\base\Application->run()
+#8 {main}
+2015-02-23 00:51:44 [-][-][-][info][application] $_SERVER = [
+    'TERM_PROGRAM' => 'iTerm.app'
+    'ANDROID_HOME' => '/Users/Fahmy/Development/android-sdk-macosx'
+    'SHELL' => '/bin/bash'
+    'TERM' => 'xterm-256color'
+    'CLICOLOR' => '1'
+    'TMPDIR' => '/var/folders/hj/zdlv53xn3nl49t14mq13mlq80000gn/T/'
+    'Apple_PubSub_Socket_Render' => '/private/tmp/com.apple.launchd.MqxvyL7t6Q/Render'
+    'OLDPWD' => '/Users/Fahmy'
+    'USER' => 'Fahmy'
+    'SSH_AUTH_SOCK' => '/private/tmp/com.apple.launchd.S4yNbFYMD9/Listeners'
+    '__CF_USER_TEXT_ENCODING' => '0x1F5:0x0:0x0'
+    'PATH' => '/usr/local/php5/bin:/usr/local/bin:/usr/local/Cellar/git/2.0.0/bin:/usr/local/mysql/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/Fahmy/Development/android-sdk-macosx/platform-tools:/Users/Fahmy/Development/android-sdk-macosx/tools'
+    'PWD' => '/Users/Fahmy/Sites/arch1'
+    'ITERM_PROFILE' => 'Custom'
+    'XPC_FLAGS' => '0x0'
+    'XPC_SERVICE_NAME' => '0'
+    'SHLVL' => '1'
+    'HOME' => '/Users/Fahmy'
+    'ITERM_SESSION_ID' => 'w0t0p0'
+    'LOGNAME' => 'Fahmy'
+    'LC_CTYPE' => 'UTF-8'
+    '_' => './yii'
+    'PHP_SELF' => './yii'
+    'SCRIPT_NAME' => './yii'
+    'SCRIPT_FILENAME' => './yii'
+    'PATH_TRANSLATED' => './yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1424623904.9702
+    'REQUEST_TIME' => 1424623904
+    'argv' => [
+        0 => './yii'
+        1 => 'parser/parse'
+    ]
+    'argc' => 2
+]
+2015-02-23 00:52:14 [-][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Cannot use object of type simple_html_dom_node as array' in /Users/Fahmy/Sites/arch1/console/controllers/ParserController.php:20
+Stack trace:
+#0 /Users/Fahmy/Sites/arch1/vendor/yiisoft/yii2/base/InlineAction.php(55): ::call_user_func_array:{/Users/Fahmy/Sites/arch1/vendor/yiisoft/yii2/base/InlineAction.php:55}()
+#1 /Users/Fahmy/Sites/arch1/vendor/yiisoft/yii2/base/Controller.php(151): yii\base\InlineAction->runWithParams()
+#2 /Users/Fahmy/Sites/arch1/vendor/yiisoft/yii2/console/Controller.php(91): yii\base\Controller->runAction()
+#3 /Users/Fahmy/Sites/arch1/vendor/yiisoft/yii2/base/Module.php(455): yii\console\Controller->runAction()
+#4 /Users/Fahmy/Sites/arch1/vendor/yiisoft/yii2/console/Application.php(161): yii\base\Module->runAction()
+#5 /Users/Fahmy/Sites/arch1/vendor/yiisoft/yii2/console/Application.php(137): yii\console\Application->runAction()
+#6 /Users/Fahmy/Sites/arch1/vendor/yiisoft/yii2/base/Application.php(375): yii\console\Application->handleRequest()
+#7 /Users/Fahmy/Sites/arch1/yii(31): yii\base\Application->run()
+#8 {main}
+2015-02-23 00:52:14 [-][-][-][info][application] $_SERVER = [
+    'TERM_PROGRAM' => 'iTerm.app'
+    'ANDROID_HOME' => '/Users/Fahmy/Development/android-sdk-macosx'
+    'SHELL' => '/bin/bash'
+    'TERM' => 'xterm-256color'
+    'CLICOLOR' => '1'
+    'TMPDIR' => '/var/folders/hj/zdlv53xn3nl49t14mq13mlq80000gn/T/'
+    'Apple_PubSub_Socket_Render' => '/private/tmp/com.apple.launchd.MqxvyL7t6Q/Render'
+    'OLDPWD' => '/Users/Fahmy'
+    'USER' => 'Fahmy'
+    'SSH_AUTH_SOCK' => '/private/tmp/com.apple.launchd.S4yNbFYMD9/Listeners'
+    '__CF_USER_TEXT_ENCODING' => '0x1F5:0x0:0x0'
+    'PATH' => '/usr/local/php5/bin:/usr/local/bin:/usr/local/Cellar/git/2.0.0/bin:/usr/local/mysql/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/Fahmy/Development/android-sdk-macosx/platform-tools:/Users/Fahmy/Development/android-sdk-macosx/tools'
+    'PWD' => '/Users/Fahmy/Sites/arch1'
+    'ITERM_PROFILE' => 'Custom'
+    'XPC_FLAGS' => '0x0'
+    'XPC_SERVICE_NAME' => '0'
+    'SHLVL' => '1'
+    'HOME' => '/Users/Fahmy'
+    'ITERM_SESSION_ID' => 'w0t0p0'
+    'LOGNAME' => 'Fahmy'
+    'LC_CTYPE' => 'UTF-8'
+    '_' => './yii'
+    'PHP_SELF' => './yii'
+    'SCRIPT_NAME' => './yii'
+    'SCRIPT_FILENAME' => './yii'
+    'PATH_TRANSLATED' => './yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1424623934.6407
+    'REQUEST_TIME' => 1424623934
+    'argv' => [
+        0 => './yii'
+        1 => 'parser/parse'
+    ]
+    'argc' => 2
+]
+2015-02-23 00:53:18 [-][-][-][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Array to string conversion' in /Users/Fahmy/Sites/arch1/console/controllers/ParserController.php:17
+Stack trace:
+#0 /Users/Fahmy/Sites/arch1/vendor/yiisoft/yii2/base/InlineAction.php(55): ::call_user_func_array:{/Users/Fahmy/Sites/arch1/vendor/yiisoft/yii2/base/InlineAction.php:55}()
+#1 /Users/Fahmy/Sites/arch1/vendor/yiisoft/yii2/base/Controller.php(151): yii\base\InlineAction->runWithParams()
+#2 /Users/Fahmy/Sites/arch1/vendor/yiisoft/yii2/console/Controller.php(91): yii\base\Controller->runAction()
+#3 /Users/Fahmy/Sites/arch1/vendor/yiisoft/yii2/base/Module.php(455): yii\console\Controller->runAction()
+#4 /Users/Fahmy/Sites/arch1/vendor/yiisoft/yii2/console/Application.php(161): yii\base\Module->runAction()
+#5 /Users/Fahmy/Sites/arch1/vendor/yiisoft/yii2/console/Application.php(137): yii\console\Application->runAction()
+#6 /Users/Fahmy/Sites/arch1/vendor/yiisoft/yii2/base/Application.php(375): yii\console\Application->handleRequest()
+#7 /Users/Fahmy/Sites/arch1/yii(31): yii\base\Application->run()
+#8 {main}
+2015-02-23 00:53:17 [-][-][-][info][application] $_SERVER = [
+    'TERM_PROGRAM' => 'iTerm.app'
+    'ANDROID_HOME' => '/Users/Fahmy/Development/android-sdk-macosx'
+    'SHELL' => '/bin/bash'
+    'TERM' => 'xterm-256color'
+    'CLICOLOR' => '1'
+    'TMPDIR' => '/var/folders/hj/zdlv53xn3nl49t14mq13mlq80000gn/T/'
+    'Apple_PubSub_Socket_Render' => '/private/tmp/com.apple.launchd.MqxvyL7t6Q/Render'
+    'OLDPWD' => '/Users/Fahmy'
+    'USER' => 'Fahmy'
+    'SSH_AUTH_SOCK' => '/private/tmp/com.apple.launchd.S4yNbFYMD9/Listeners'
+    '__CF_USER_TEXT_ENCODING' => '0x1F5:0x0:0x0'
+    'PATH' => '/usr/local/php5/bin:/usr/local/bin:/usr/local/Cellar/git/2.0.0/bin:/usr/local/mysql/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/Fahmy/Development/android-sdk-macosx/platform-tools:/Users/Fahmy/Development/android-sdk-macosx/tools'
+    'PWD' => '/Users/Fahmy/Sites/arch1'
+    'ITERM_PROFILE' => 'Custom'
+    'XPC_FLAGS' => '0x0'
+    'XPC_SERVICE_NAME' => '0'
+    'SHLVL' => '1'
+    'HOME' => '/Users/Fahmy'
+    'ITERM_SESSION_ID' => 'w0t0p0'
+    'LOGNAME' => 'Fahmy'
+    'LC_CTYPE' => 'UTF-8'
+    '_' => './yii'
+    'PHP_SELF' => './yii'
+    'SCRIPT_NAME' => './yii'
+    'SCRIPT_FILENAME' => './yii'
+    'PATH_TRANSLATED' => './yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1424623997.7651
+    'REQUEST_TIME' => 1424623997
+    'argv' => [
+        0 => './yii'
+        1 => 'parser/parse'
+    ]
+    'argc' => 2
+]
+2015-02-23 00:55:43 [-][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Cannot use object of type simple_html_dom_node as array' in /Users/Fahmy/Sites/arch1/console/controllers/ParserController.php:16
+Stack trace:
+#0 /Users/Fahmy/Sites/arch1/vendor/yiisoft/yii2/base/InlineAction.php(55): ::call_user_func_array:{/Users/Fahmy/Sites/arch1/vendor/yiisoft/yii2/base/InlineAction.php:55}()
+#1 /Users/Fahmy/Sites/arch1/vendor/yiisoft/yii2/base/Controller.php(151): yii\base\InlineAction->runWithParams()
+#2 /Users/Fahmy/Sites/arch1/vendor/yiisoft/yii2/console/Controller.php(91): yii\base\Controller->runAction()
+#3 /Users/Fahmy/Sites/arch1/vendor/yiisoft/yii2/base/Module.php(455): yii\console\Controller->runAction()
+#4 /Users/Fahmy/Sites/arch1/vendor/yiisoft/yii2/console/Application.php(161): yii\base\Module->runAction()
+#5 /Users/Fahmy/Sites/arch1/vendor/yiisoft/yii2/console/Application.php(137): yii\console\Application->runAction()
+#6 /Users/Fahmy/Sites/arch1/vendor/yiisoft/yii2/base/Application.php(375): yii\console\Application->handleRequest()
+#7 /Users/Fahmy/Sites/arch1/yii(31): yii\base\Application->run()
+#8 {main}
+2015-02-23 00:55:43 [-][-][-][info][application] $_SERVER = [
+    'TERM_PROGRAM' => 'iTerm.app'
+    'ANDROID_HOME' => '/Users/Fahmy/Development/android-sdk-macosx'
+    'SHELL' => '/bin/bash'
+    'TERM' => 'xterm-256color'
+    'CLICOLOR' => '1'
+    'TMPDIR' => '/var/folders/hj/zdlv53xn3nl49t14mq13mlq80000gn/T/'
+    'Apple_PubSub_Socket_Render' => '/private/tmp/com.apple.launchd.MqxvyL7t6Q/Render'
+    'OLDPWD' => '/Users/Fahmy'
+    'USER' => 'Fahmy'
+    'SSH_AUTH_SOCK' => '/private/tmp/com.apple.launchd.S4yNbFYMD9/Listeners'
+    '__CF_USER_TEXT_ENCODING' => '0x1F5:0x0:0x0'
+    'PATH' => '/usr/local/php5/bin:/usr/local/bin:/usr/local/Cellar/git/2.0.0/bin:/usr/local/mysql/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/Fahmy/Development/android-sdk-macosx/platform-tools:/Users/Fahmy/Development/android-sdk-macosx/tools'
+    'PWD' => '/Users/Fahmy/Sites/arch1'
+    'ITERM_PROFILE' => 'Custom'
+    'XPC_FLAGS' => '0x0'
+    'XPC_SERVICE_NAME' => '0'
+    'SHLVL' => '1'
+    'HOME' => '/Users/Fahmy'
+    'ITERM_SESSION_ID' => 'w0t0p0'
+    'LOGNAME' => 'Fahmy'
+    'LC_CTYPE' => 'UTF-8'
+    '_' => './yii'
+    'PHP_SELF' => './yii'
+    'SCRIPT_NAME' => './yii'
+    'SCRIPT_FILENAME' => './yii'
+    'PATH_TRANSLATED' => './yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1424624143.1729
+    'REQUEST_TIME' => 1424624143
+    'argv' => [
+        0 => './yii'
+        1 => 'parser/parse'
+    ]
+    'argc' => 2
+]
+2015-02-23 00:58:48 [-][-][-][error][yii\base\ErrorException:4] exception 'yii\base\ErrorException' with message 'syntax error, unexpected '=', expecting ')'' in /Users/Fahmy/Sites/arch1/console/controllers/ParserController.php:16
+Stack trace:
+#0 /Users/Fahmy/Sites/arch1/vendor/yiisoft/yii2/base/Module.php(563): ::spl_autoload_call()
+#1 /Users/Fahmy/Sites/arch1/vendor/yiisoft/yii2/base/Module.php(563): ::class_exists()
+#2 /Users/Fahmy/Sites/arch1/vendor/yiisoft/yii2/base/Module.php(521): yii\base\Module->createControllerByID()
+#3 /Users/Fahmy/Sites/arch1/vendor/yiisoft/yii2/base/Module.php(449): yii\base\Module->createController()
+#4 /Users/Fahmy/Sites/arch1/vendor/yiisoft/yii2/console/Application.php(161): yii\base\Module->runAction()
+#5 /Users/Fahmy/Sites/arch1/vendor/yiisoft/yii2/console/Application.php(137): yii\console\Application->runAction()
+#6 /Users/Fahmy/Sites/arch1/vendor/yiisoft/yii2/base/Application.php(375): yii\console\Application->handleRequest()
+#7 /Users/Fahmy/Sites/arch1/yii(31): yii\base\Application->run()
+#8 {main}
+2015-02-23 00:58:48 [-][-][-][info][application] $_SERVER = [
+    'TERM_PROGRAM' => 'iTerm.app'
+    'ANDROID_HOME' => '/Users/Fahmy/Development/android-sdk-macosx'
+    'SHELL' => '/bin/bash'
+    'TERM' => 'xterm-256color'
+    'CLICOLOR' => '1'
+    'TMPDIR' => '/var/folders/hj/zdlv53xn3nl49t14mq13mlq80000gn/T/'
+    'Apple_PubSub_Socket_Render' => '/private/tmp/com.apple.launchd.MqxvyL7t6Q/Render'
+    'OLDPWD' => '/Users/Fahmy'
+    'USER' => 'Fahmy'
+    'SSH_AUTH_SOCK' => '/private/tmp/com.apple.launchd.S4yNbFYMD9/Listeners'
+    '__CF_USER_TEXT_ENCODING' => '0x1F5:0x0:0x0'
+    'PATH' => '/usr/local/php5/bin:/usr/local/bin:/usr/local/Cellar/git/2.0.0/bin:/usr/local/mysql/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/Fahmy/Development/android-sdk-macosx/platform-tools:/Users/Fahmy/Development/android-sdk-macosx/tools'
+    'PWD' => '/Users/Fahmy/Sites/arch1'
+    'ITERM_PROFILE' => 'Custom'
+    'XPC_FLAGS' => '0x0'
+    'XPC_SERVICE_NAME' => '0'
+    'SHLVL' => '1'
+    'HOME' => '/Users/Fahmy'
+    'ITERM_SESSION_ID' => 'w0t0p0'
+    'LOGNAME' => 'Fahmy'
+    'LC_CTYPE' => 'UTF-8'
+    '_' => './yii'
+    'PHP_SELF' => './yii'
+    'SCRIPT_NAME' => './yii'
+    'SCRIPT_FILENAME' => './yii'
+    'PATH_TRANSLATED' => './yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1424624328.4752
+    'REQUEST_TIME' => 1424624328
+    'argv' => [
+        0 => './yii'
+        1 => 'parser/parse'
+    ]
+    'argc' => 2
+]
+2015-02-23 01:13:43 [-][-][-][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Trying to get property of non-object' in /Users/Fahmy/Sites/arch1/console/controllers/ParserController.php:39
+Stack trace:
+#0 /Users/Fahmy/Sites/arch1/vendor/yiisoft/yii2/base/InlineAction.php(55): console\controllers\ParserController->actionParse()
+#1 /Users/Fahmy/Sites/arch1/vendor/yiisoft/yii2/base/InlineAction.php(55): ::call_user_func_array:{/Users/Fahmy/Sites/arch1/vendor/yiisoft/yii2/base/InlineAction.php:55}()
+#2 /Users/Fahmy/Sites/arch1/vendor/yiisoft/yii2/base/Controller.php(151): yii\base\InlineAction->runWithParams()
+#3 /Users/Fahmy/Sites/arch1/vendor/yiisoft/yii2/console/Controller.php(91): yii\base\Controller->runAction()
+#4 /Users/Fahmy/Sites/arch1/vendor/yiisoft/yii2/base/Module.php(455): yii\console\Controller->runAction()
+#5 /Users/Fahmy/Sites/arch1/vendor/yiisoft/yii2/console/Application.php(161): yii\base\Module->runAction()
+#6 /Users/Fahmy/Sites/arch1/vendor/yiisoft/yii2/console/Application.php(137): yii\console\Application->runAction()
+#7 /Users/Fahmy/Sites/arch1/vendor/yiisoft/yii2/base/Application.php(375): yii\console\Application->handleRequest()
+#8 /Users/Fahmy/Sites/arch1/yii(31): yii\base\Application->run()
+#9 {main}
+2015-02-23 01:13:42 [-][-][-][info][application] $_SERVER = [
+    'TERM_PROGRAM' => 'iTerm.app'
+    'ANDROID_HOME' => '/Users/Fahmy/Development/android-sdk-macosx'
+    'SHELL' => '/bin/bash'
+    'TERM' => 'xterm-256color'
+    'CLICOLOR' => '1'
+    'TMPDIR' => '/var/folders/hj/zdlv53xn3nl49t14mq13mlq80000gn/T/'
+    'Apple_PubSub_Socket_Render' => '/private/tmp/com.apple.launchd.MqxvyL7t6Q/Render'
+    'OLDPWD' => '/Users/Fahmy'
+    'USER' => 'Fahmy'
+    'SSH_AUTH_SOCK' => '/private/tmp/com.apple.launchd.S4yNbFYMD9/Listeners'
+    '__CF_USER_TEXT_ENCODING' => '0x1F5:0x0:0x0'
+    'PATH' => '/usr/local/php5/bin:/usr/local/bin:/usr/local/Cellar/git/2.0.0/bin:/usr/local/mysql/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/Fahmy/Development/android-sdk-macosx/platform-tools:/Users/Fahmy/Development/android-sdk-macosx/tools'
+    'PWD' => '/Users/Fahmy/Sites/arch1'
+    'ITERM_PROFILE' => 'Custom'
+    'XPC_FLAGS' => '0x0'
+    'XPC_SERVICE_NAME' => '0'
+    'SHLVL' => '1'
+    'HOME' => '/Users/Fahmy'
+    'ITERM_SESSION_ID' => 'w0t0p0'
+    'LOGNAME' => 'Fahmy'
+    'LC_CTYPE' => 'UTF-8'
+    '_' => './yii'
+    'PHP_SELF' => './yii'
+    'SCRIPT_NAME' => './yii'
+    'SCRIPT_FILENAME' => './yii'
+    'PATH_TRANSLATED' => './yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1424625222.9787
+    'REQUEST_TIME' => 1424625222
+    'argv' => [
+        0 => './yii'
+        1 => 'parser/parse'
+    ]
+    'argc' => 2
+]
+2015-02-23 01:13:59 [-][-][-][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Trying to get property of non-object' in /Users/Fahmy/Sites/arch1/console/controllers/ParserController.php:39
+Stack trace:
+#0 /Users/Fahmy/Sites/arch1/vendor/yiisoft/yii2/base/InlineAction.php(55): console\controllers\ParserController->actionParse()
+#1 /Users/Fahmy/Sites/arch1/vendor/yiisoft/yii2/base/InlineAction.php(55): ::call_user_func_array:{/Users/Fahmy/Sites/arch1/vendor/yiisoft/yii2/base/InlineAction.php:55}()
+#2 /Users/Fahmy/Sites/arch1/vendor/yiisoft/yii2/base/Controller.php(151): yii\base\InlineAction->runWithParams()
+#3 /Users/Fahmy/Sites/arch1/vendor/yiisoft/yii2/console/Controller.php(91): yii\base\Controller->runAction()
+#4 /Users/Fahmy/Sites/arch1/vendor/yiisoft/yii2/base/Module.php(455): yii\console\Controller->runAction()
+#5 /Users/Fahmy/Sites/arch1/vendor/yiisoft/yii2/console/Application.php(161): yii\base\Module->runAction()
+#6 /Users/Fahmy/Sites/arch1/vendor/yiisoft/yii2/console/Application.php(137): yii\console\Application->runAction()
+#7 /Users/Fahmy/Sites/arch1/vendor/yiisoft/yii2/base/Application.php(375): yii\console\Application->handleRequest()
+#8 /Users/Fahmy/Sites/arch1/yii(31): yii\base\Application->run()
+#9 {main}
+2015-02-23 01:13:59 [-][-][-][info][application] $_SERVER = [
+    'TERM_PROGRAM' => 'iTerm.app'
+    'ANDROID_HOME' => '/Users/Fahmy/Development/android-sdk-macosx'
+    'SHELL' => '/bin/bash'
+    'TERM' => 'xterm-256color'
+    'CLICOLOR' => '1'
+    'TMPDIR' => '/var/folders/hj/zdlv53xn3nl49t14mq13mlq80000gn/T/'
+    'Apple_PubSub_Socket_Render' => '/private/tmp/com.apple.launchd.MqxvyL7t6Q/Render'
+    'OLDPWD' => '/Users/Fahmy'
+    'USER' => 'Fahmy'
+    'SSH_AUTH_SOCK' => '/private/tmp/com.apple.launchd.S4yNbFYMD9/Listeners'
+    '__CF_USER_TEXT_ENCODING' => '0x1F5:0x0:0x0'
+    'PATH' => '/usr/local/php5/bin:/usr/local/bin:/usr/local/Cellar/git/2.0.0/bin:/usr/local/mysql/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/Fahmy/Development/android-sdk-macosx/platform-tools:/Users/Fahmy/Development/android-sdk-macosx/tools'
+    'PWD' => '/Users/Fahmy/Sites/arch1'
+    'ITERM_PROFILE' => 'Custom'
+    'XPC_FLAGS' => '0x0'
+    'XPC_SERVICE_NAME' => '0'
+    'SHLVL' => '1'
+    'HOME' => '/Users/Fahmy'
+    'ITERM_SESSION_ID' => 'w0t0p0'
+    'LOGNAME' => 'Fahmy'
+    'LC_CTYPE' => 'UTF-8'
+    '_' => './yii'
+    'PHP_SELF' => './yii'
+    'SCRIPT_NAME' => './yii'
+    'SCRIPT_FILENAME' => './yii'
+    'PATH_TRANSLATED' => './yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1424625239.0259
+    'REQUEST_TIME' => 1424625239
+    'argv' => [
+        0 => './yii'
+        1 => 'parser/parse'
+    ]
+    'argc' => 2
+]
+2015-02-23 01:15:30 [-][-][-][error][yii\base\ErrorException:4] exception 'yii\base\ErrorException' with message 'syntax error, unexpected 'echo' (T_ECHO), expecting ',' or ';'' in /Users/Fahmy/Sites/arch1/console/controllers/ParserController.php:40
+Stack trace:
+#0 /Users/Fahmy/Sites/arch1/vendor/yiisoft/yii2/base/Module.php(563): ::spl_autoload_call()
+#1 /Users/Fahmy/Sites/arch1/vendor/yiisoft/yii2/base/Module.php(563): ::class_exists()
+#2 /Users/Fahmy/Sites/arch1/vendor/yiisoft/yii2/base/Module.php(521): yii\base\Module->createControllerByID()
+#3 /Users/Fahmy/Sites/arch1/vendor/yiisoft/yii2/base/Module.php(449): yii\base\Module->createController()
+#4 /Users/Fahmy/Sites/arch1/vendor/yiisoft/yii2/console/Application.php(161): yii\base\Module->runAction()
+#5 /Users/Fahmy/Sites/arch1/vendor/yiisoft/yii2/console/Application.php(137): yii\console\Application->runAction()
+#6 /Users/Fahmy/Sites/arch1/vendor/yiisoft/yii2/base/Application.php(375): yii\console\Application->handleRequest()
+#7 /Users/Fahmy/Sites/arch1/yii(31): yii\base\Application->run()
+#8 {main}
+2015-02-23 01:15:30 [-][-][-][info][application] $_SERVER = [
+    'TERM_PROGRAM' => 'iTerm.app'
+    'ANDROID_HOME' => '/Users/Fahmy/Development/android-sdk-macosx'
+    'SHELL' => '/bin/bash'
+    'TERM' => 'xterm-256color'
+    'CLICOLOR' => '1'
+    'TMPDIR' => '/var/folders/hj/zdlv53xn3nl49t14mq13mlq80000gn/T/'
+    'Apple_PubSub_Socket_Render' => '/private/tmp/com.apple.launchd.MqxvyL7t6Q/Render'
+    'OLDPWD' => '/Users/Fahmy'
+    'USER' => 'Fahmy'
+    'SSH_AUTH_SOCK' => '/private/tmp/com.apple.launchd.S4yNbFYMD9/Listeners'
+    '__CF_USER_TEXT_ENCODING' => '0x1F5:0x0:0x0'
+    'PATH' => '/usr/local/php5/bin:/usr/local/bin:/usr/local/Cellar/git/2.0.0/bin:/usr/local/mysql/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/Fahmy/Development/android-sdk-macosx/platform-tools:/Users/Fahmy/Development/android-sdk-macosx/tools'
+    'PWD' => '/Users/Fahmy/Sites/arch1'
+    'ITERM_PROFILE' => 'Custom'
+    'XPC_FLAGS' => '0x0'
+    'XPC_SERVICE_NAME' => '0'
+    'SHLVL' => '1'
+    'HOME' => '/Users/Fahmy'
+    'ITERM_SESSION_ID' => 'w0t0p0'
+    'LOGNAME' => 'Fahmy'
+    'LC_CTYPE' => 'UTF-8'
+    '_' => './yii'
+    'PHP_SELF' => './yii'
+    'SCRIPT_NAME' => './yii'
+    'SCRIPT_FILENAME' => './yii'
+    'PATH_TRANSLATED' => './yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1424625330.969
+    'REQUEST_TIME' => 1424625330
+    'argv' => [
+        0 => './yii'
+        1 => 'parser/parse'
+    ]
+    'argc' => 2
+]
+2015-02-23 01:22:31 [-][-][-][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Trying to get property of non-object' in /Users/Fahmy/Sites/arch1/console/controllers/ParserController.php:43
+Stack trace:
+#0 /Users/Fahmy/Sites/arch1/vendor/yiisoft/yii2/base/InlineAction.php(55): console\controllers\ParserController->actionParse()
+#1 /Users/Fahmy/Sites/arch1/vendor/yiisoft/yii2/base/InlineAction.php(55): ::call_user_func_array:{/Users/Fahmy/Sites/arch1/vendor/yiisoft/yii2/base/InlineAction.php:55}()
+#2 /Users/Fahmy/Sites/arch1/vendor/yiisoft/yii2/base/Controller.php(151): yii\base\InlineAction->runWithParams()
+#3 /Users/Fahmy/Sites/arch1/vendor/yiisoft/yii2/console/Controller.php(91): yii\base\Controller->runAction()
+#4 /Users/Fahmy/Sites/arch1/vendor/yiisoft/yii2/base/Module.php(455): yii\console\Controller->runAction()
+#5 /Users/Fahmy/Sites/arch1/vendor/yiisoft/yii2/console/Application.php(161): yii\base\Module->runAction()
+#6 /Users/Fahmy/Sites/arch1/vendor/yiisoft/yii2/console/Application.php(137): yii\console\Application->runAction()
+#7 /Users/Fahmy/Sites/arch1/vendor/yiisoft/yii2/base/Application.php(375): yii\console\Application->handleRequest()
+#8 /Users/Fahmy/Sites/arch1/yii(31): yii\base\Application->run()
+#9 {main}
+2015-02-23 01:22:31 [-][-][-][info][application] $_SERVER = [
+    'TERM_PROGRAM' => 'iTerm.app'
+    'ANDROID_HOME' => '/Users/Fahmy/Development/android-sdk-macosx'
+    'SHELL' => '/bin/bash'
+    'TERM' => 'xterm-256color'
+    'CLICOLOR' => '1'
+    'TMPDIR' => '/var/folders/hj/zdlv53xn3nl49t14mq13mlq80000gn/T/'
+    'Apple_PubSub_Socket_Render' => '/private/tmp/com.apple.launchd.MqxvyL7t6Q/Render'
+    'OLDPWD' => '/Users/Fahmy'
+    'USER' => 'Fahmy'
+    'SSH_AUTH_SOCK' => '/private/tmp/com.apple.launchd.S4yNbFYMD9/Listeners'
+    '__CF_USER_TEXT_ENCODING' => '0x1F5:0x0:0x0'
+    'PATH' => '/usr/local/php5/bin:/usr/local/bin:/usr/local/Cellar/git/2.0.0/bin:/usr/local/mysql/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/Fahmy/Development/android-sdk-macosx/platform-tools:/Users/Fahmy/Development/android-sdk-macosx/tools'
+    'PWD' => '/Users/Fahmy/Sites/arch1'
+    'ITERM_PROFILE' => 'Custom'
+    'XPC_FLAGS' => '0x0'
+    'XPC_SERVICE_NAME' => '0'
+    'SHLVL' => '1'
+    'HOME' => '/Users/Fahmy'
+    'ITERM_SESSION_ID' => 'w0t0p0'
+    'LOGNAME' => 'Fahmy'
+    'LC_CTYPE' => 'UTF-8'
+    '_' => './yii'
+    'PHP_SELF' => './yii'
+    'SCRIPT_NAME' => './yii'
+    'SCRIPT_FILENAME' => './yii'
+    'PATH_TRANSLATED' => './yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1424625751.0833
+    'REQUEST_TIME' => 1424625751
+    'argv' => [
+        0 => './yii'
+        1 => 'parser/parse'
+    ]
+    'argc' => 2
+]
+2015-02-23 10:34:47 [-][-][-][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Undefined index: class' in /Users/Fahmy/Sites/arch1/console/controllers/ParserController.php:41
+Stack trace:
+#0 /Users/Fahmy/Sites/arch1/vendor/yiisoft/yii2/base/InlineAction.php(55): console\controllers\ParserController->actionParse()
+#1 /Users/Fahmy/Sites/arch1/vendor/yiisoft/yii2/base/InlineAction.php(55): ::call_user_func_array:{/Users/Fahmy/Sites/arch1/vendor/yiisoft/yii2/base/InlineAction.php:55}()
+#2 /Users/Fahmy/Sites/arch1/vendor/yiisoft/yii2/base/Controller.php(151): yii\base\InlineAction->runWithParams()
+#3 /Users/Fahmy/Sites/arch1/vendor/yiisoft/yii2/console/Controller.php(91): yii\base\Controller->runAction()
+#4 /Users/Fahmy/Sites/arch1/vendor/yiisoft/yii2/base/Module.php(455): yii\console\Controller->runAction()
+#5 /Users/Fahmy/Sites/arch1/vendor/yiisoft/yii2/console/Application.php(161): yii\base\Module->runAction()
+#6 /Users/Fahmy/Sites/arch1/vendor/yiisoft/yii2/console/Application.php(137): yii\console\Application->runAction()
+#7 /Users/Fahmy/Sites/arch1/vendor/yiisoft/yii2/base/Application.php(375): yii\console\Application->handleRequest()
+#8 /Users/Fahmy/Sites/arch1/yii(31): yii\base\Application->run()
+#9 {main}
+2015-02-23 10:34:46 [-][-][-][info][application] $_SERVER = [
+    'TERM_PROGRAM' => 'iTerm.app'
+    'ANDROID_HOME' => '/Users/Fahmy/Development/android-sdk-macosx'
+    'SHELL' => '/bin/bash'
+    'TERM' => 'xterm-256color'
+    'CLICOLOR' => '1'
+    'TMPDIR' => '/var/folders/hj/zdlv53xn3nl49t14mq13mlq80000gn/T/'
+    'Apple_PubSub_Socket_Render' => '/private/tmp/com.apple.launchd.4vBt48MxGx/Render'
+    'OLDPWD' => '/Users/Fahmy'
+    'USER' => 'Fahmy'
+    'SSH_AUTH_SOCK' => '/private/tmp/com.apple.launchd.oPBEkczCWc/Listeners'
+    '__CF_USER_TEXT_ENCODING' => '0x1F5:0x0:0x0'
+    'PATH' => '/usr/local/php5/bin:/usr/local/bin:/usr/local/Cellar/git/2.0.0/bin:/usr/local/mysql/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/Fahmy/Development/android-sdk-macosx/platform-tools:/Users/Fahmy/Development/android-sdk-macosx/tools'
+    'PWD' => '/Users/Fahmy/Sites/arch1'
+    'ITERM_PROFILE' => 'Custom'
+    'XPC_FLAGS' => '0x0'
+    'XPC_SERVICE_NAME' => '0'
+    'SHLVL' => '1'
+    'HOME' => '/Users/Fahmy'
+    'ITERM_SESSION_ID' => 'w0t0p0'
+    'LOGNAME' => 'Fahmy'
+    'LC_CTYPE' => 'UTF-8'
+    '_' => './yii'
+    'PHP_SELF' => './yii'
+    'SCRIPT_NAME' => './yii'
+    'SCRIPT_FILENAME' => './yii'
+    'PATH_TRANSLATED' => './yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1424658886.7651
+    'REQUEST_TIME' => 1424658886
+    'argv' => [
+        0 => './yii'
+        1 => 'parser/parse'
+    ]
+    'argc' => 2
+]
+2015-02-23 11:00:00 [-][-][-][error][yii\base\ErrorException:4] exception 'yii\base\ErrorException' with message 'syntax error, unexpected 'echo' (T_ECHO)' in /Users/Fahmy/Sites/arch1/console/controllers/ParserController.php:31
+Stack trace:
+#0 /Users/Fahmy/Sites/arch1/vendor/yiisoft/yii2/base/Module.php(563): ::spl_autoload_call()
+#1 /Users/Fahmy/Sites/arch1/vendor/yiisoft/yii2/base/Module.php(563): ::class_exists()
+#2 /Users/Fahmy/Sites/arch1/vendor/yiisoft/yii2/base/Module.php(521): yii\base\Module->createControllerByID()
+#3 /Users/Fahmy/Sites/arch1/vendor/yiisoft/yii2/base/Module.php(449): yii\base\Module->createController()
+#4 /Users/Fahmy/Sites/arch1/vendor/yiisoft/yii2/console/Application.php(161): yii\base\Module->runAction()
+#5 /Users/Fahmy/Sites/arch1/vendor/yiisoft/yii2/console/Application.php(137): yii\console\Application->runAction()
+#6 /Users/Fahmy/Sites/arch1/vendor/yiisoft/yii2/base/Application.php(375): yii\console\Application->handleRequest()
+#7 /Users/Fahmy/Sites/arch1/yii(31): yii\base\Application->run()
+#8 {main}
+2015-02-23 11:00:00 [-][-][-][info][application] $_SERVER = [
+    'TERM_PROGRAM' => 'iTerm.app'
+    'ANDROID_HOME' => '/Users/Fahmy/Development/android-sdk-macosx'
+    'SHELL' => '/bin/bash'
+    'TERM' => 'xterm-256color'
+    'CLICOLOR' => '1'
+    'TMPDIR' => '/var/folders/hj/zdlv53xn3nl49t14mq13mlq80000gn/T/'
+    'Apple_PubSub_Socket_Render' => '/private/tmp/com.apple.launchd.4vBt48MxGx/Render'
+    'OLDPWD' => '/Users/Fahmy'
+    'USER' => 'Fahmy'
+    'SSH_AUTH_SOCK' => '/private/tmp/com.apple.launchd.oPBEkczCWc/Listeners'
+    '__CF_USER_TEXT_ENCODING' => '0x1F5:0x0:0x0'
+    'PATH' => '/usr/local/php5/bin:/usr/local/bin:/usr/local/Cellar/git/2.0.0/bin:/usr/local/mysql/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/Fahmy/Development/android-sdk-macosx/platform-tools:/Users/Fahmy/Development/android-sdk-macosx/tools'
+    'PWD' => '/Users/Fahmy/Sites/arch1'
+    'ITERM_PROFILE' => 'Custom'
+    'XPC_FLAGS' => '0x0'
+    'XPC_SERVICE_NAME' => '0'
+    'SHLVL' => '1'
+    'HOME' => '/Users/Fahmy'
+    'ITERM_SESSION_ID' => 'w0t0p0'
+    'LOGNAME' => 'Fahmy'
+    'LC_CTYPE' => 'UTF-8'
+    '_' => './yii'
+    'PHP_SELF' => './yii'
+    'SCRIPT_NAME' => './yii'
+    'SCRIPT_FILENAME' => './yii'
+    'PATH_TRANSLATED' => './yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1424660400.1698
+    'REQUEST_TIME' => 1424660400
+    'argv' => [
+        0 => './yii'
+        1 => 'parser/parse'
+    ]
+    'argc' => 2
+]
+2015-02-23 11:00:33 [-][-][-][error][yii\db\IntegrityException] exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'class' for key 'PRIMARY'' in /Users/Fahmy/Sites/arch1/vendor/yiisoft/yii2/db/Command.php:768
+Stack trace:
+#0 /Users/Fahmy/Sites/arch1/vendor/yiisoft/yii2/db/Command.php(768): PDOStatement->execute()
+#1 /Users/Fahmy/Sites/arch1/vendor/yiisoft/yii2/db/ActiveRecord.php(462): yii\db\Command->execute()
+#2 /Users/Fahmy/Sites/arch1/vendor/yiisoft/yii2/db/ActiveRecord.php(425): yii\db\ActiveRecord->insertInternal(NULL)
+#3 /Users/Fahmy/Sites/arch1/vendor/yiisoft/yii2/db/BaseActiveRecord.php(583): yii\db\ActiveRecord->insert(true, NULL)
+#4 /Users/Fahmy/Sites/arch1/console/controllers/ParserController.php(42): yii\db\BaseActiveRecord->save()
+#5 /Users/Fahmy/Sites/arch1/console/controllers/ParserController.php(30): console\controllers\ParserController->saveAttribute(Array)
+#6 [internal function]: console\controllers\ParserController->actionParse()
+#7 /Users/Fahmy/Sites/arch1/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#8 /Users/Fahmy/Sites/arch1/vendor/yiisoft/yii2/base/Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#9 /Users/Fahmy/Sites/arch1/vendor/yiisoft/yii2/console/Controller.php(91): yii\base\Controller->runAction('parse', Array)
+#10 /Users/Fahmy/Sites/arch1/vendor/yiisoft/yii2/base/Module.php(455): yii\console\Controller->runAction('parse', Array)
+#11 /Users/Fahmy/Sites/arch1/vendor/yiisoft/yii2/console/Application.php(161): yii\base\Module->runAction('parser/parse', Array)
+#12 /Users/Fahmy/Sites/arch1/vendor/yiisoft/yii2/console/Application.php(137): yii\console\Application->runAction('parser/parse', Array)
+#13 /Users/Fahmy/Sites/arch1/vendor/yiisoft/yii2/base/Application.php(375): yii\console\Application->handleRequest(Object(yii\console\Request))
+#14 /Users/Fahmy/Sites/arch1/yii(31): yii\base\Application->run()
+#15 {main}
+
+Next exception 'yii\db\IntegrityException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'class' for key 'PRIMARY'
+The SQL being executed was: INSERT INTO `element_attribute` (`name`, `theme`) VALUES ('class', 'unify')' in /Users/Fahmy/Sites/arch1/vendor/yiisoft/yii2/db/Schema.php:532
+Stack trace:
+#0 /Users/Fahmy/Sites/arch1/vendor/yiisoft/yii2/db/Command.php(776): yii\db\Schema->convertException(Object(PDOException), 'INSERT INTO `el...')
+#1 /Users/Fahmy/Sites/arch1/vendor/yiisoft/yii2/db/ActiveRecord.php(462): yii\db\Command->execute()
+#2 /Users/Fahmy/Sites/arch1/vendor/yiisoft/yii2/db/ActiveRecord.php(425): yii\db\ActiveRecord->insertInternal(NULL)
+#3 /Users/Fahmy/Sites/arch1/vendor/yiisoft/yii2/db/BaseActiveRecord.php(583): yii\db\ActiveRecord->insert(true, NULL)
+#4 /Users/Fahmy/Sites/arch1/console/controllers/ParserController.php(42): yii\db\BaseActiveRecord->save()
+#5 /Users/Fahmy/Sites/arch1/console/controllers/ParserController.php(30): console\controllers\ParserController->saveAttribute(Array)
+#6 [internal function]: console\controllers\ParserController->actionParse()
+#7 /Users/Fahmy/Sites/arch1/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#8 /Users/Fahmy/Sites/arch1/vendor/yiisoft/yii2/base/Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#9 /Users/Fahmy/Sites/arch1/vendor/yiisoft/yii2/console/Controller.php(91): yii\base\Controller->runAction('parse', Array)
+#10 /Users/Fahmy/Sites/arch1/vendor/yiisoft/yii2/base/Module.php(455): yii\console\Controller->runAction('parse', Array)
+#11 /Users/Fahmy/Sites/arch1/vendor/yiisoft/yii2/console/Application.php(161): yii\base\Module->runAction('parser/parse', Array)
+#12 /Users/Fahmy/Sites/arch1/vendor/yiisoft/yii2/console/Application.php(137): yii\console\Application->runAction('parser/parse', Array)
+#13 /Users/Fahmy/Sites/arch1/vendor/yiisoft/yii2/base/Application.php(375): yii\console\Application->handleRequest(Object(yii\console\Request))
+#14 /Users/Fahmy/Sites/arch1/yii(31): yii\base\Application->run()
+#15 {main}
+Additional Information:
+Array
+(
+    [0] => 23000
+    [1] => 1062
+    [2] => Duplicate entry 'class' for key 'PRIMARY'
+)
+
+2015-02-23 11:00:32 [-][-][-][info][application] $_SERVER = [
+    'TERM_PROGRAM' => 'iTerm.app'
+    'ANDROID_HOME' => '/Users/Fahmy/Development/android-sdk-macosx'
+    'SHELL' => '/bin/bash'
+    'TERM' => 'xterm-256color'
+    'CLICOLOR' => '1'
+    'TMPDIR' => '/var/folders/hj/zdlv53xn3nl49t14mq13mlq80000gn/T/'
+    'Apple_PubSub_Socket_Render' => '/private/tmp/com.apple.launchd.4vBt48MxGx/Render'
+    'OLDPWD' => '/Users/Fahmy'
+    'USER' => 'Fahmy'
+    'SSH_AUTH_SOCK' => '/private/tmp/com.apple.launchd.oPBEkczCWc/Listeners'
+    '__CF_USER_TEXT_ENCODING' => '0x1F5:0x0:0x0'
+    'PATH' => '/usr/local/php5/bin:/usr/local/bin:/usr/local/Cellar/git/2.0.0/bin:/usr/local/mysql/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/Fahmy/Development/android-sdk-macosx/platform-tools:/Users/Fahmy/Development/android-sdk-macosx/tools'
+    'PWD' => '/Users/Fahmy/Sites/arch1'
+    'ITERM_PROFILE' => 'Custom'
+    'XPC_FLAGS' => '0x0'
+    'XPC_SERVICE_NAME' => '0'
+    'SHLVL' => '1'
+    'HOME' => '/Users/Fahmy'
+    'ITERM_SESSION_ID' => 'w0t0p0'
+    'LOGNAME' => 'Fahmy'
+    'LC_CTYPE' => 'UTF-8'
+    '_' => './yii'
+    'PHP_SELF' => './yii'
+    'SCRIPT_NAME' => './yii'
+    'SCRIPT_FILENAME' => './yii'
+    'PATH_TRANSLATED' => './yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1424660432.8796
+    'REQUEST_TIME' => 1424660432
+    'argv' => [
+        0 => './yii'
+        1 => 'parser/parse'
+    ]
+    'argc' => 2
+]
+2015-02-23 11:15:34 [-][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'console\controllers\Yii' not found' in /Users/Fahmy/Sites/arch1/console/controllers/ParserController.php:41
+Stack trace:
+#0 /Users/Fahmy/Sites/arch1/vendor/yiisoft/yii2/base/InlineAction.php(55): console\controllers\ParserController->actionParse()
+#1 /Users/Fahmy/Sites/arch1/vendor/yiisoft/yii2/base/InlineAction.php(55): ::call_user_func_array:{/Users/Fahmy/Sites/arch1/vendor/yiisoft/yii2/base/InlineAction.php:55}()
+#2 /Users/Fahmy/Sites/arch1/vendor/yiisoft/yii2/base/Controller.php(151): yii\base\InlineAction->runWithParams()
+#3 /Users/Fahmy/Sites/arch1/vendor/yiisoft/yii2/console/Controller.php(91): yii\base\Controller->runAction()
+#4 /Users/Fahmy/Sites/arch1/vendor/yiisoft/yii2/base/Module.php(455): yii\console\Controller->runAction()
+#5 /Users/Fahmy/Sites/arch1/vendor/yiisoft/yii2/console/Application.php(161): yii\base\Module->runAction()
+#6 /Users/Fahmy/Sites/arch1/vendor/yiisoft/yii2/console/Application.php(137): yii\console\Application->runAction()
+#7 /Users/Fahmy/Sites/arch1/vendor/yiisoft/yii2/base/Application.php(375): yii\console\Application->handleRequest()
+#8 /Users/Fahmy/Sites/arch1/yii(31): yii\base\Application->run()
+#9 {main}
+2015-02-23 11:15:34 [-][-][-][info][application] $_SERVER = [
+    'TERM_PROGRAM' => 'iTerm.app'
+    'ANDROID_HOME' => '/Users/Fahmy/Development/android-sdk-macosx'
+    'SHELL' => '/bin/bash'
+    'TERM' => 'xterm-256color'
+    'CLICOLOR' => '1'
+    'TMPDIR' => '/var/folders/hj/zdlv53xn3nl49t14mq13mlq80000gn/T/'
+    'Apple_PubSub_Socket_Render' => '/private/tmp/com.apple.launchd.4vBt48MxGx/Render'
+    'OLDPWD' => '/Users/Fahmy'
+    'USER' => 'Fahmy'
+    'SSH_AUTH_SOCK' => '/private/tmp/com.apple.launchd.oPBEkczCWc/Listeners'
+    '__CF_USER_TEXT_ENCODING' => '0x1F5:0x0:0x0'
+    'PATH' => '/usr/local/php5/bin:/usr/local/bin:/usr/local/Cellar/git/2.0.0/bin:/usr/local/mysql/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/Fahmy/Development/android-sdk-macosx/platform-tools:/Users/Fahmy/Development/android-sdk-macosx/tools'
+    'PWD' => '/Users/Fahmy/Sites/arch1'
+    'ITERM_PROFILE' => 'Custom'
+    'XPC_FLAGS' => '0x0'
+    'XPC_SERVICE_NAME' => '0'
+    'SHLVL' => '1'
+    'HOME' => '/Users/Fahmy'
+    'ITERM_SESSION_ID' => 'w0t0p0'
+    'LOGNAME' => 'Fahmy'
+    'LC_CTYPE' => 'UTF-8'
+    '_' => './yii'
+    'PHP_SELF' => './yii'
+    'SCRIPT_NAME' => './yii'
+    'SCRIPT_FILENAME' => './yii'
+    'PATH_TRANSLATED' => './yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1424661334.3982
+    'REQUEST_TIME' => 1424661334
+    'argv' => [
+        0 => './yii'
+        1 => 'parser/parse'
+    ]
+    'argc' => 2
+]
+2015-02-23 11:16:32 [-][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Call to undefined method Yii::app()' in /Users/Fahmy/Sites/arch1/console/controllers/ParserController.php:41
+Stack trace:
+#0 /Users/Fahmy/Sites/arch1/vendor/yiisoft/yii2/base/InlineAction.php(55): console\controllers\ParserController->actionParse()
+#1 /Users/Fahmy/Sites/arch1/vendor/yiisoft/yii2/base/InlineAction.php(55): ::call_user_func_array:{/Users/Fahmy/Sites/arch1/vendor/yiisoft/yii2/base/InlineAction.php:55}()
+#2 /Users/Fahmy/Sites/arch1/vendor/yiisoft/yii2/base/Controller.php(151): yii\base\InlineAction->runWithParams()
+#3 /Users/Fahmy/Sites/arch1/vendor/yiisoft/yii2/console/Controller.php(91): yii\base\Controller->runAction()
+#4 /Users/Fahmy/Sites/arch1/vendor/yiisoft/yii2/base/Module.php(455): yii\console\Controller->runAction()
+#5 /Users/Fahmy/Sites/arch1/vendor/yiisoft/yii2/console/Application.php(161): yii\base\Module->runAction()
+#6 /Users/Fahmy/Sites/arch1/vendor/yiisoft/yii2/console/Application.php(137): yii\console\Application->runAction()
+#7 /Users/Fahmy/Sites/arch1/vendor/yiisoft/yii2/base/Application.php(375): yii\console\Application->handleRequest()
+#8 /Users/Fahmy/Sites/arch1/yii(31): yii\base\Application->run()
+#9 {main}
+2015-02-23 11:16:32 [-][-][-][info][application] $_SERVER = [
+    'TERM_PROGRAM' => 'iTerm.app'
+    'ANDROID_HOME' => '/Users/Fahmy/Development/android-sdk-macosx'
+    'SHELL' => '/bin/bash'
+    'TERM' => 'xterm-256color'
+    'CLICOLOR' => '1'
+    'TMPDIR' => '/var/folders/hj/zdlv53xn3nl49t14mq13mlq80000gn/T/'
+    'Apple_PubSub_Socket_Render' => '/private/tmp/com.apple.launchd.4vBt48MxGx/Render'
+    'OLDPWD' => '/Users/Fahmy'
+    'USER' => 'Fahmy'
+    'SSH_AUTH_SOCK' => '/private/tmp/com.apple.launchd.oPBEkczCWc/Listeners'
+    '__CF_USER_TEXT_ENCODING' => '0x1F5:0x0:0x0'
+    'PATH' => '/usr/local/php5/bin:/usr/local/bin:/usr/local/Cellar/git/2.0.0/bin:/usr/local/mysql/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/Fahmy/Development/android-sdk-macosx/platform-tools:/Users/Fahmy/Development/android-sdk-macosx/tools'
+    'PWD' => '/Users/Fahmy/Sites/arch1'
+    'ITERM_PROFILE' => 'Custom'
+    'XPC_FLAGS' => '0x0'
+    'XPC_SERVICE_NAME' => '0'
+    'SHLVL' => '1'
+    'HOME' => '/Users/Fahmy'
+    'ITERM_SESSION_ID' => 'w0t0p0'
+    'LOGNAME' => 'Fahmy'
+    'LC_CTYPE' => 'UTF-8'
+    '_' => './yii'
+    'PHP_SELF' => './yii'
+    'SCRIPT_NAME' => './yii'
+    'SCRIPT_FILENAME' => './yii'
+    'PATH_TRANSLATED' => './yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1424661392.6175
+    'REQUEST_TIME' => 1424661392
+    'argv' => [
+        0 => './yii'
+        1 => 'parser/parse'
+    ]
+    'argc' => 2
+]
+2015-02-23 11:25:47 [-][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Call to undefined method console\models\ElementAttribute::model()' in /Users/Fahmy/Sites/arch1/console/controllers/ParserController.php:52
+Stack trace:
+#0 /Users/Fahmy/Sites/arch1/vendor/yiisoft/yii2/base/InlineAction.php(55): console\controllers\ParserController->actionParse()
+#1 /Users/Fahmy/Sites/arch1/vendor/yiisoft/yii2/base/InlineAction.php(55): ::call_user_func_array:{/Users/Fahmy/Sites/arch1/vendor/yiisoft/yii2/base/InlineAction.php:55}()
+#2 /Users/Fahmy/Sites/arch1/vendor/yiisoft/yii2/base/Controller.php(151): yii\base\InlineAction->runWithParams()
+#3 /Users/Fahmy/Sites/arch1/vendor/yiisoft/yii2/console/Controller.php(91): yii\base\Controller->runAction()
+#4 /Users/Fahmy/Sites/arch1/vendor/yiisoft/yii2/base/Module.php(455): yii\console\Controller->runAction()
+#5 /Users/Fahmy/Sites/arch1/vendor/yiisoft/yii2/console/Application.php(161): yii\base\Module->runAction()
+#6 /Users/Fahmy/Sites/arch1/vendor/yiisoft/yii2/console/Application.php(137): yii\console\Application->runAction()
+#7 /Users/Fahmy/Sites/arch1/vendor/yiisoft/yii2/base/Application.php(375): yii\console\Application->handleRequest()
+#8 /Users/Fahmy/Sites/arch1/yii(31): yii\base\Application->run()
+#9 {main}
+2015-02-23 11:25:47 [-][-][-][info][application] $_SERVER = [
+    'TERM_PROGRAM' => 'iTerm.app'
+    'ANDROID_HOME' => '/Users/Fahmy/Development/android-sdk-macosx'
+    'SHELL' => '/bin/bash'
+    'TERM' => 'xterm-256color'
+    'CLICOLOR' => '1'
+    'TMPDIR' => '/var/folders/hj/zdlv53xn3nl49t14mq13mlq80000gn/T/'
+    'Apple_PubSub_Socket_Render' => '/private/tmp/com.apple.launchd.4vBt48MxGx/Render'
+    'OLDPWD' => '/Users/Fahmy'
+    'USER' => 'Fahmy'
+    'SSH_AUTH_SOCK' => '/private/tmp/com.apple.launchd.oPBEkczCWc/Listeners'
+    '__CF_USER_TEXT_ENCODING' => '0x1F5:0x0:0x0'
+    'PATH' => '/usr/local/php5/bin:/usr/local/bin:/usr/local/Cellar/git/2.0.0/bin:/usr/local/mysql/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/Fahmy/Development/android-sdk-macosx/platform-tools:/Users/Fahmy/Development/android-sdk-macosx/tools'
+    'PWD' => '/Users/Fahmy/Sites/arch1'
+    'ITERM_PROFILE' => 'Custom'
+    'XPC_FLAGS' => '0x0'
+    'XPC_SERVICE_NAME' => '0'
+    'SHLVL' => '1'
+    'HOME' => '/Users/Fahmy'
+    'ITERM_SESSION_ID' => 'w0t0p0'
+    'LOGNAME' => 'Fahmy'
+    'LC_CTYPE' => 'UTF-8'
+    '_' => './yii'
+    'PHP_SELF' => './yii'
+    'SCRIPT_NAME' => './yii'
+    'SCRIPT_FILENAME' => './yii'
+    'PATH_TRANSLATED' => './yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1424661947.6458
+    'REQUEST_TIME' => 1424661947
+    'argv' => [
+        0 => './yii'
+        1 => 'parser/parse'
+    ]
+    'argc' => 2
+]
+2015-02-23 11:31:51 [-][-][-][error][yii\base\ErrorException:4] exception 'yii\base\ErrorException' with message 'syntax error, unexpected '=>' (T_DOUBLE_ARROW)' in /Users/Fahmy/Sites/arch1/console/controllers/ParserController.php:52
+Stack trace:
+#0 /Users/Fahmy/Sites/arch1/vendor/yiisoft/yii2/base/Module.php(563): ::spl_autoload_call()
+#1 /Users/Fahmy/Sites/arch1/vendor/yiisoft/yii2/base/Module.php(563): ::class_exists()
+#2 /Users/Fahmy/Sites/arch1/vendor/yiisoft/yii2/base/Module.php(521): yii\base\Module->createControllerByID()
+#3 /Users/Fahmy/Sites/arch1/vendor/yiisoft/yii2/base/Module.php(449): yii\base\Module->createController()
+#4 /Users/Fahmy/Sites/arch1/vendor/yiisoft/yii2/console/Application.php(161): yii\base\Module->runAction()
+#5 /Users/Fahmy/Sites/arch1/vendor/yiisoft/yii2/console/Application.php(137): yii\console\Application->runAction()
+#6 /Users/Fahmy/Sites/arch1/vendor/yiisoft/yii2/base/Application.php(375): yii\console\Application->handleRequest()
+#7 /Users/Fahmy/Sites/arch1/yii(31): yii\base\Application->run()
+#8 {main}
+2015-02-23 11:31:51 [-][-][-][info][application] $_SERVER = [
+    'TERM_PROGRAM' => 'iTerm.app'
+    'ANDROID_HOME' => '/Users/Fahmy/Development/android-sdk-macosx'
+    'SHELL' => '/bin/bash'
+    'TERM' => 'xterm-256color'
+    'CLICOLOR' => '1'
+    'TMPDIR' => '/var/folders/hj/zdlv53xn3nl49t14mq13mlq80000gn/T/'
+    'Apple_PubSub_Socket_Render' => '/private/tmp/com.apple.launchd.4vBt48MxGx/Render'
+    'OLDPWD' => '/Users/Fahmy'
+    'USER' => 'Fahmy'
+    'SSH_AUTH_SOCK' => '/private/tmp/com.apple.launchd.oPBEkczCWc/Listeners'
+    '__CF_USER_TEXT_ENCODING' => '0x1F5:0x0:0x0'
+    'PATH' => '/usr/local/php5/bin:/usr/local/bin:/usr/local/Cellar/git/2.0.0/bin:/usr/local/mysql/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/Fahmy/Development/android-sdk-macosx/platform-tools:/Users/Fahmy/Development/android-sdk-macosx/tools'
+    'PWD' => '/Users/Fahmy/Sites/arch1'
+    'ITERM_PROFILE' => 'Custom'
+    'XPC_FLAGS' => '0x0'
+    'XPC_SERVICE_NAME' => '0'
+    'SHLVL' => '1'
+    'HOME' => '/Users/Fahmy'
+    'ITERM_SESSION_ID' => 'w0t0p0'
+    'LOGNAME' => 'Fahmy'
+    'LC_CTYPE' => 'UTF-8'
+    '_' => './yii'
+    'PHP_SELF' => './yii'
+    'SCRIPT_NAME' => './yii'
+    'SCRIPT_FILENAME' => './yii'
+    'PATH_TRANSLATED' => './yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1424662311.7787
+    'REQUEST_TIME' => 1424662311
+    'argv' => [
+        0 => './yii'
+        1 => 'parser/parse'
+    ]
+    'argc' => 2
+]
